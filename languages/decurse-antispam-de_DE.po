@@ -296,3 +296,160 @@ msgstr "Kommentar-Spam-Schutz für WordPress. Keine externe API erforderlich."
 
 msgid "More information about Decurse Antispam"
 msgstr "Weitere Informationen über Decurse Antispam"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "Tests"
+
+msgid "Tester la détection anti-spam"
+msgstr "Spam-Erkennung testen"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "Führen Sie Tests durch, um zu überprüfen, ob die Spam-Erkennung mit Ihren aktuellen Einstellungen korrekt funktioniert."
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "Wählen Sie die auszuführenden Tests"
+
+msgid "Désactivé dans les paramètres"
+msgstr "In den Einstellungen deaktiviert"
+
+msgid "Piège avec champ invisible"
+msgstr "Unsichtbare Feldfalle"
+
+msgid "Vérification du temps"
+msgstr "Zeitprüfung"
+
+msgid "Min. %d secondes"
+msgstr "Min. %d Sekunden"
+
+msgid "Jeton JavaScript"
+msgstr "JavaScript-Token"
+
+msgid "Validation JS"
+msgstr "JS-Validierung"
+
+msgid "Analyse du contenu"
+msgstr "Inhaltsanalyse"
+
+msgid "Domaines, motifs, liens"
+msgstr "Domains, Muster, Links"
+
+msgid "Lancer les tests"
+msgstr "Tests starten"
+
+msgid "Résultats"
+msgstr "Ergebnisse"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "Honeypot - Spam (Feld ausgefüllt)"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "Bot füllt das versteckte Honeypot-Feld aus"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "Honeypot - Gültig (Feld leer)"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "Mensch lässt das Honeypot-Feld leer"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "Zeit - Spam (zu schnell)"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "Übermittlung in 1s (Min: %ds)"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "Zeit - Gültig (normale Geschwindigkeit)"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "Übermittlung in 10s (Min: %ds)"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "JS-Token - Spam (ungültiger Token)"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "Bot sendet ungültigen oder leeren Token"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "JS-Token - Gültig (korrekter Token)"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "Browser generiert korrekten MD5-Token"
+
+msgid "Contenu - Domaine spam"
+msgstr "Inhalt - Spam-Domain"
+
+msgid "Le commentaire contient binance.com"
+msgstr "Kommentar enthält binance.com"
+
+msgid "Contenu - Phrase de bot"
+msgstr "Inhalt - Bot-Phrase"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "Generischer Bot-Kommentar erkannt"
+
+msgid "Contenu - Motif spam"
+msgstr "Inhalt - Spam-Muster"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "Enthält Muster \"easy $500\""
+
+msgid "Contenu - Email suspect"
+msgstr "Inhalt - Verdächtige E-Mail"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "E-Mail: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "Inhalt - Zu viele Links"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "Kommentar hat 5 Links (Max: %d)"
+
+msgid "Contenu - Commentaire valide"
+msgstr "Inhalt - Gültiger Kommentar"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "Legitimer Kommentar ohne Spam-Indikatoren"
+
+msgid "Test inconnu"
+msgstr "Unbekannter Test"
+
+msgid "Type de test non reconnu"
+msgstr "Testtyp nicht erkannt"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "Decurse Antispam deaktivieren"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "Wenn Sie das Plugin löschen möchten, möchten Sie die Daten behalten oder löschen?"
+
+msgid "Conserver les données"
+msgstr "Daten behalten"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "Einstellungen, Statistiken und Protokolle werden beibehalten. Sie können das Plugin neu installieren, ohne Daten zu verlieren."
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "Daten bei der Deinstallation löschen"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "Beim Löschen des Plugins alle Einstellungen, Statistiken und Protokolle dauerhaft aus der Datenbank entfernen."
+
+msgid "Annuler"
+msgstr "Abbrechen"
+
+msgid "Désactiver"
+msgstr "Deaktivieren"
+
+msgid "Traitement..."
+msgstr "Wird verarbeitet..."
+
+msgid "Avancé"
+msgstr "Erweitert"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "Alle Plugin-Daten (Statistiken, Protokolle, Einstellungen) beim Löschen entfernen"
+
+msgid "Enregistrer"
+msgstr "Speichern"

@@ -296,3 +296,160 @@ msgstr "WordPress用コメントスパム対策。外部APIは不要です。"
 
 msgid "More information about Decurse Antispam"
 msgstr "Decurse Antispamの詳細情報"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "テスト"
+
+msgid "Tester la détection anti-spam"
+msgstr "スパム検出をテスト"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "現在の設定でスパム検出が正しく機能しているかテストを実行します。"
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "実行するテストを選択"
+
+msgid "Désactivé dans les paramètres"
+msgstr "設定で無効"
+
+msgid "Piège avec champ invisible"
+msgstr "不可視フィールドトラップ"
+
+msgid "Vérification du temps"
+msgstr "時間チェック"
+
+msgid "Min. %d secondes"
+msgstr "最小%d秒"
+
+msgid "Jeton JavaScript"
+msgstr "JavaScriptトークン"
+
+msgid "Validation JS"
+msgstr "JS検証"
+
+msgid "Analyse du contenu"
+msgstr "コンテンツ分析"
+
+msgid "Domaines, motifs, liens"
+msgstr "ドメイン、パターン、リンク"
+
+msgid "Lancer les tests"
+msgstr "テスト実行"
+
+msgid "Résultats"
+msgstr "結果"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "ハニーポット - スパム（フィールド入力済み）"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "ボットが隠しハニーポットフィールドを入力"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "ハニーポット - 有効（フィールド空）"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "人間はハニーポットフィールドを空のまま"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "時間 - スパム（速すぎる）"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "1秒で送信（最小: %d秒）"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "時間 - 有効（通常速度）"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "10秒で送信（最小: %d秒）"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "JSトークン - スパム（無効なトークン）"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "ボットが無効または空のトークンを送信"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "JSトークン - 有効（正しいトークン）"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "ブラウザが正しいMD5トークンを生成"
+
+msgid "Contenu - Domaine spam"
+msgstr "コンテンツ - スパムドメイン"
+
+msgid "Le commentaire contient binance.com"
+msgstr "コメントにbinance.comが含まれる"
+
+msgid "Contenu - Phrase de bot"
+msgstr "コンテンツ - ボットフレーズ"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "一般的なボットコメントを検出"
+
+msgid "Contenu - Motif spam"
+msgstr "コンテンツ - スパムパターン"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "パターン \"easy $500\" を含む"
+
+msgid "Contenu - Email suspect"
+msgstr "コンテンツ - 疑わしいメール"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "メール: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "コンテンツ - リンクが多すぎる"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "コメントに5つのリンク（最大: %d）"
+
+msgid "Contenu - Commentaire valide"
+msgstr "コンテンツ - 有効なコメント"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "スパム指標のない正当なコメント"
+
+msgid "Test inconnu"
+msgstr "不明なテスト"
+
+msgid "Type de test non reconnu"
+msgstr "テストタイプが認識されません"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "Decurse Antispamを無効化"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "プラグインを削除する予定の場合、データを保持しますか、削除しますか？"
+
+msgid "Conserver les données"
+msgstr "データを保持"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "設定、統計、ログは保持されます。データを失うことなくプラグインを再インストールできます。"
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "アンインストール時にデータを削除"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "プラグイン削除時に、すべての設定、統計、ログをデータベースから完全に削除します。"
+
+msgid "Annuler"
+msgstr "キャンセル"
+
+msgid "Désactiver"
+msgstr "無効化"
+
+msgid "Traitement..."
+msgstr "処理中..."
+
+msgid "Avancé"
+msgstr "詳細設定"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "削除時にすべてのプラグインデータ（統計、ログ、設定）を削除"
+
+msgid "Enregistrer"
+msgstr "保存"

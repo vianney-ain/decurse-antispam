@@ -296,3 +296,160 @@ msgstr "WordPress için yorum spam koruması. Harici API gerekmez."
 
 msgid "More information about Decurse Antispam"
 msgstr "Decurse Antispam hakkında daha fazla bilgi"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "Testler"
+
+msgid "Tester la détection anti-spam"
+msgstr "Spam algılamayı test et"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "Spam algılamanın mevcut ayarlarınızla doğru çalışıp çalışmadığını doğrulamak için testler çalıştırın."
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "Çalıştırılacak testleri seçin"
+
+msgid "Désactivé dans les paramètres"
+msgstr "Ayarlarda devre dışı"
+
+msgid "Piège avec champ invisible"
+msgstr "Görünmez alan tuzağı"
+
+msgid "Vérification du temps"
+msgstr "Zaman kontrolü"
+
+msgid "Min. %d secondes"
+msgstr "Min. %d saniye"
+
+msgid "Jeton JavaScript"
+msgstr "JavaScript token"
+
+msgid "Validation JS"
+msgstr "JS doğrulama"
+
+msgid "Analyse du contenu"
+msgstr "İçerik analizi"
+
+msgid "Domaines, motifs, liens"
+msgstr "Alan adları, kalıplar, bağlantılar"
+
+msgid "Lancer les tests"
+msgstr "Testleri çalıştır"
+
+msgid "Résultats"
+msgstr "Sonuçlar"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "Bal küpü - Spam (alan dolu)"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "Bot gizli bal küpü alanını doldurur"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "Bal küpü - Geçerli (alan boş)"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "İnsan bal küpü alanını boş bırakır"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "Zaman - Spam (çok hızlı)"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "1sn'de gönderim (min: %dsn)"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "Zaman - Geçerli (normal hız)"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "10sn'de gönderim (min: %dsn)"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "JS Token - Spam (geçersiz token)"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "Bot geçersiz veya boş token gönderir"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "JS Token - Geçerli (doğru token)"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "Tarayıcı doğru MD5 token üretir"
+
+msgid "Contenu - Domaine spam"
+msgstr "İçerik - Spam alan adı"
+
+msgid "Le commentaire contient binance.com"
+msgstr "Yorum binance.com içeriyor"
+
+msgid "Contenu - Phrase de bot"
+msgstr "İçerik - Bot ifadesi"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "Genel bot yorumu tespit edildi"
+
+msgid "Contenu - Motif spam"
+msgstr "İçerik - Spam kalıbı"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "\"easy $500\" kalıbını içerir"
+
+msgid "Contenu - Email suspect"
+msgstr "İçerik - Şüpheli e-posta"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "E-posta: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "İçerik - Çok fazla bağlantı"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "Yorum 5 bağlantı içeriyor (maks: %d)"
+
+msgid "Contenu - Commentaire valide"
+msgstr "İçerik - Geçerli yorum"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "Spam göstergeleri olmayan meşru yorum"
+
+msgid "Test inconnu"
+msgstr "Bilinmeyen test"
+
+msgid "Type de test non reconnu"
+msgstr "Test türü tanınmıyor"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "Decurse Antispam'ı devre dışı bırak"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "Eklentiyi silmeyi planlıyorsanız, verileri saklamak mı yoksa silmek mi istiyorsunuz?"
+
+msgid "Conserver les données"
+msgstr "Verileri sakla"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "Ayarlar, istatistikler ve günlükler saklanacak. Veri kaybı olmadan eklentiyi yeniden yükleyebilirsiniz."
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "Kaldırırken verileri sil"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "Eklenti silindiğinde, tüm ayarları, istatistikleri ve günlükleri veritabanından kalıcı olarak sil."
+
+msgid "Annuler"
+msgstr "İptal"
+
+msgid "Désactiver"
+msgstr "Devre dışı bırak"
+
+msgid "Traitement..."
+msgstr "İşleniyor..."
+
+msgid "Avancé"
+msgstr "Gelişmiş"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "Silme sırasında tüm eklenti verilerini (istatistikler, günlükler, ayarlar) sil"
+
+msgid "Enregistrer"
+msgstr "Kaydet"

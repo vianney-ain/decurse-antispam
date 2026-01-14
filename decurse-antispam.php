@@ -3,7 +3,7 @@
  * Plugin Name: Decurse Antispam
  * Plugin URI: https://github.com/vianney-ain/decurse-antispam
  * Description: Comment spam protection for WordPress. Honeypot, time check, JavaScript token and content analysis. No external API required.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Vianney Ain
  * Author URI: https://vianneyain.com
  * License: GPL v2 or later
@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin constants
-define('DECURSE_VERSION', '1.0.0');
+define('DECURSE_VERSION', '1.0.1');
 define('DECURSE_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('DECURSE_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('DECURSE_PLUGIN_BASENAME', plugin_basename(__FILE__));

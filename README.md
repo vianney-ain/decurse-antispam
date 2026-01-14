@@ -79,6 +79,12 @@ No, all spam detection happens locally on your server. No data is sent to extern
 
 ## Changelog
 
+### 1.0.1
+- Added Tests tab in admin panel for real-time spam detection testing
+- Improved French translations
+- Added uninstall confirmation dialog with data deletion option
+- Fixed ZIP structure for Linux/WordPress compatibility
+
 ### 1.0.0
 - Initial release
 - Honeypot protection

@@ -296,3 +296,160 @@ msgstr "حماية من تعليقات الرسائل غير المرغوب في
 
 msgid "More information about Decurse Antispam"
 msgstr "مزيد من المعلومات حول Decurse لمكافحة الرسائل غير المرغوب فيها"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "الاختبارات"
+
+msgid "Tester la détection anti-spam"
+msgstr "اختبار كشف الرسائل غير المرغوب فيها"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "قم بتشغيل الاختبارات للتحقق من أن كشف الرسائل غير المرغوب فيها يعمل بشكل صحيح مع إعداداتك الحالية."
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "حدد الاختبارات للتشغيل"
+
+msgid "Désactivé dans les paramètres"
+msgstr "معطل في الإعدادات"
+
+msgid "Piège avec champ invisible"
+msgstr "مصيدة حقل غير مرئي"
+
+msgid "Vérification du temps"
+msgstr "التحقق من الوقت"
+
+msgid "Min. %d secondes"
+msgstr "الحد الأدنى %d ثانية"
+
+msgid "Jeton JavaScript"
+msgstr "رمز JavaScript"
+
+msgid "Validation JS"
+msgstr "التحقق من JS"
+
+msgid "Analyse du contenu"
+msgstr "تحليل المحتوى"
+
+msgid "Domaines, motifs, liens"
+msgstr "نطاقات، أنماط، روابط"
+
+msgid "Lancer les tests"
+msgstr "تشغيل الاختبارات"
+
+msgid "Résultats"
+msgstr "النتائج"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "مصيدة - رسالة غير مرغوبة (حقل مملوء)"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "الروبوت يملأ حقل المصيدة المخفي"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "مصيدة - صالح (حقل فارغ)"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "الإنسان يترك حقل المصيدة فارغاً"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "الوقت - رسالة غير مرغوبة (سريع جداً)"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "إرسال في 1ث (الحد الأدنى: %dث)"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "الوقت - صالح (سرعة عادية)"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "إرسال في 10ث (الحد الأدنى: %dث)"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "رمز JS - رسالة غير مرغوبة (رمز غير صالح)"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "الروبوت يرسل رمزاً غير صالح أو فارغاً"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "رمز JS - صالح (رمز صحيح)"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "المتصفح يولد رمز MD5 الصحيح"
+
+msgid "Contenu - Domaine spam"
+msgstr "المحتوى - نطاق رسائل غير مرغوبة"
+
+msgid "Le commentaire contient binance.com"
+msgstr "التعليق يحتوي على binance.com"
+
+msgid "Contenu - Phrase de bot"
+msgstr "المحتوى - عبارة روبوت"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "تم اكتشاف تعليق روبوت عام"
+
+msgid "Contenu - Motif spam"
+msgstr "المحتوى - نمط رسائل غير مرغوبة"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "يحتوي على نمط \"easy $500\""
+
+msgid "Contenu - Email suspect"
+msgstr "المحتوى - بريد إلكتروني مشبوه"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "البريد الإلكتروني: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "المحتوى - روابط كثيرة جداً"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "التعليق يحتوي على 5 روابط (الحد الأقصى: %d)"
+
+msgid "Contenu - Commentaire valide"
+msgstr "المحتوى - تعليق صالح"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "تعليق شرعي بدون مؤشرات رسائل غير مرغوبة"
+
+msgid "Test inconnu"
+msgstr "اختبار غير معروف"
+
+msgid "Type de test non reconnu"
+msgstr "نوع الاختبار غير معروف"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "تعطيل Decurse لمكافحة الرسائل غير المرغوب فيها"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "إذا كنت تخطط لحذف الإضافة، هل تريد الاحتفاظ بالبيانات أم حذفها؟"
+
+msgid "Conserver les données"
+msgstr "الاحتفاظ بالبيانات"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "سيتم الاحتفاظ بالإعدادات والإحصائيات والسجلات. يمكنك إعادة تثبيت الإضافة دون فقدان البيانات."
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "حذف البيانات عند إلغاء التثبيت"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "عند حذف الإضافة، احذف نهائياً جميع الإعدادات والإحصائيات والسجلات من قاعدة البيانات."
+
+msgid "Annuler"
+msgstr "إلغاء"
+
+msgid "Désactiver"
+msgstr "تعطيل"
+
+msgid "Traitement..."
+msgstr "جاري المعالجة..."
+
+msgid "Avancé"
+msgstr "متقدم"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "حذف جميع بيانات الإضافة (الإحصائيات، السجلات، الإعدادات) عند الحذف"
+
+msgid "Enregistrer"
+msgstr "حفظ"

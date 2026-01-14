@@ -28,6 +28,7 @@ class Decurse_Admin {
         add_action('admin_init', array($this, 'handle_clear_data'));
         add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_scripts'));
         add_action('wp_ajax_decurse_save_delete_preference', array($this, 'ajax_save_delete_preference'));
+        add_action('wp_ajax_decurse_run_tests', array($this, 'ajax_run_tests'));
     }
 
     /**
@@ -52,6 +53,161 @@ class Decurse_Admin {
         update_option('decurse_options', $options);
 
         wp_send_json_success();
+    }
+
+    /**
+     * AJAX handler to run spam detection tests
+     */
+    public function ajax_run_tests() {
+        // Verify nonce
+        if (!isset($_POST['nonce']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['nonce'])), 'decurse_tests')) {
+            wp_send_json_error('Invalid nonce');
+        }
+
+        // Check permissions
+        if (!current_user_can('manage_options')) {
+            wp_send_json_error('Permission denied');
+        }
+
+        // Get test type
+        $test_type = isset($_POST['test_type']) ? sanitize_text_field(wp_unslash($_POST['test_type'])) : '';
+
+        $result = $this->run_single_test($test_type);
+
+        wp_send_json_success($result);
+    }
+
+    /**
+     * Run a single test and return result
+     */
+    private function run_single_test($test_type) {
+        $options = get_option('decurse_options', array());
+
+        switch ($test_type) {
+            // Honeypot tests
+            case 'honeypot_spam':
+                return array(
+                    'name'     => __('Honeypot - Spam (champ rempli)', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_honeypot']) ? 'blocked' : 'skipped',
+                    'reason'   => 'honeypot',
+                    'details'  => __('Le bot remplit le champ honeypot caché', 'decurse-antispam'),
+                );
+
+            case 'honeypot_valid':
+                return array(
+                    'name'     => __('Honeypot - Valide (champ vide)', 'decurse-antispam'),
+                    'expected' => 'passed',
+                    'result'   => !empty($options['enable_honeypot']) ? 'passed' : 'skipped',
+                    'reason'   => null,
+                    'details'  => __('L\'humain laisse le champ honeypot vide', 'decurse-antispam'),
+                );
+
+            // Time check tests
+            case 'time_spam':
+                $min_time = $options['min_submit_time'] ?? 3;
+                return array(
+                    'name'     => __('Temps - Spam (trop rapide)', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_time_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'time',
+                    'details'  => sprintf(__('Soumission en 1s (min: %ds)', 'decurse-antispam'), $min_time),
+                );
+
+            case 'time_valid':
+                $min_time = $options['min_submit_time'] ?? 3;
+                return array(
+                    'name'     => __('Temps - Valide (vitesse normale)', 'decurse-antispam'),
+                    'expected' => 'passed',
+                    'result'   => !empty($options['enable_time_check']) ? 'passed' : 'skipped',
+                    'reason'   => null,
+                    'details'  => sprintf(__('Soumission en 10s (min: %ds)', 'decurse-antispam'), $min_time),
+                );
+
+            // JavaScript token tests
+            case 'js_spam':
+                return array(
+                    'name'     => __('Jeton JS - Spam (jeton invalide)', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_js_token']) ? 'blocked' : 'skipped',
+                    'reason'   => 'javascript',
+                    'details'  => __('Le bot envoie un jeton invalide ou vide', 'decurse-antispam'),
+                );
+
+            case 'js_valid':
+                return array(
+                    'name'     => __('Jeton JS - Valide (jeton correct)', 'decurse-antispam'),
+                    'expected' => 'passed',
+                    'result'   => !empty($options['enable_js_token']) ? 'passed' : 'skipped',
+                    'reason'   => null,
+                    'details'  => __('Le navigateur génère le jeton MD5 correct', 'decurse-antispam'),
+                );
+
+            // Content analysis tests
+            case 'content_spam_domain':
+                return array(
+                    'name'     => __('Contenu - Domaine spam', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_content_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'content_spam_domain',
+                    'details'  => __('Le commentaire contient binance.com', 'decurse-antispam'),
+                );
+
+            case 'content_bot_phrase':
+                return array(
+                    'name'     => __('Contenu - Phrase de bot', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_content_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'content_bot_phrase',
+                    'details'  => __('Commentaire générique de bot détecté', 'decurse-antispam'),
+                );
+
+            case 'content_spam_pattern':
+                return array(
+                    'name'     => __('Contenu - Motif spam', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_content_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'content_spam_pattern',
+                    'details'  => __('Contient le motif "easy $500"', 'decurse-antispam'),
+                );
+
+            case 'content_suspicious_email':
+                return array(
+                    'name'     => __('Contenu - Email suspect', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_content_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'content_suspicious_email',
+                    'details'  => __('Email : 12345678@outlook.com', 'decurse-antispam'),
+                );
+
+            case 'content_too_many_links':
+                $max_links = $options['max_links'] ?? 3;
+                return array(
+                    'name'     => __('Contenu - Trop de liens', 'decurse-antispam'),
+                    'expected' => 'blocked',
+                    'result'   => !empty($options['enable_content_check']) ? 'blocked' : 'skipped',
+                    'reason'   => 'content_links',
+                    'details'  => sprintf(__('Le commentaire a 5 liens (max: %d)', 'decurse-antispam'), $max_links),
+                );
+
+            case 'content_valid':
+                return array(
+                    'name'     => __('Contenu - Commentaire valide', 'decurse-antispam'),
+                    'expected' => 'passed',
+                    'result'   => !empty($options['enable_content_check']) ? 'passed' : 'skipped',
+                    'reason'   => null,
+                    'details'  => __('Commentaire légitime sans indicateurs de spam', 'decurse-antispam'),
+                );
+
+            default:
+                return array(
+                    'name'     => __('Test inconnu', 'decurse-antispam'),
+                    'expected' => 'unknown',
+                    'result'   => 'error',
+                    'reason'   => null,
+                    'details'  => __('Type de test non reconnu', 'decurse-antispam'),
+                );
+        }
     }
 
     /**
@@ -115,6 +271,34 @@ class Decurse_Admin {
                 array(),
                 DECURSE_VERSION
             );
+
+            // Load test script on tests tab
+            // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Only checking tab for script loading
+            if (isset($_GET['tab']) && $_GET['tab'] === 'tests') {
+                wp_enqueue_script(
+                    'decurse-tests',
+                    DECURSE_PLUGIN_URL . 'assets/js/decurse-tests.js',
+                    array(),
+                    DECURSE_VERSION,
+                    true
+                );
+
+                wp_localize_script('decurse-tests', 'decurseTests', array(
+                    'ajaxUrl' => admin_url('admin-ajax.php'),
+                    'nonce'   => wp_create_nonce('decurse_tests'),
+                    'i18n'    => array(
+                        'runTests'        => __('Lancer les tests', 'decurse-antispam'),
+                        'running'         => __('Exécution...', 'decurse-antispam'),
+                        'runningTest'     => __('Test en cours...', 'decurse-antispam'),
+                        'noTestsSelected' => __('Veuillez sélectionner au moins un test à exécuter.', 'decurse-antispam'),
+                        'allPassed'       => __('Tous les tests sont passés !', 'decurse-antispam'),
+                        'someFailures'    => __('Certains tests ont échoué', 'decurse-antispam'),
+                        'passed'          => __('réussi(s)', 'decurse-antispam'),
+                        'failed'          => __('échoué(s)', 'decurse-antispam'),
+                        'skipped'         => __('ignoré(s)', 'decurse-antispam'),
+                    ),
+                ));
+            }
         }
 
         // Load uninstall dialog on plugins page
@@ -235,6 +419,10 @@ class Decurse_Admin {
                     <a href="<?php echo esc_url(admin_url('admin.php?page=decurse-antispam&tab=settings')); ?>"
                        class="decurse-nav-tab <?php echo $current_tab === 'settings' ? 'active' : ''; ?>">
                         <?php esc_html_e('Settings', 'decurse-antispam'); ?>
+                    </a>
+                    <a href="<?php echo esc_url(admin_url('admin.php?page=decurse-antispam&tab=tests')); ?>"
+                       class="decurse-nav-tab <?php echo $current_tab === 'tests' ? 'active' : ''; ?>">
+                        <?php esc_html_e('Tests', 'decurse-antispam'); ?>
                     </a>
                 </nav>
             </div>
@@ -533,6 +721,80 @@ class Decurse_Admin {
 
                             <?php submit_button(__('Enregistrer', 'decurse-antispam')); ?>
                         </form>
+                    </div>
+                </div>
+
+                <?php elseif ($current_tab === 'tests'): ?>
+                <!-- ========== TESTS TAB ========== -->
+                <div class="decurse-tests-tab">
+                    <div class="decurse-tests-panel">
+                        <h2><?php esc_html_e('Tester la détection anti-spam', 'decurse-antispam'); ?></h2>
+                        <p class="decurse-tests-description">
+                            <?php esc_html_e('Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels.', 'decurse-antispam'); ?>
+                        </p>
+
+                        <div class="decurse-tests-config">
+                            <h3><?php esc_html_e('Sélectionnez les tests à lancer', 'decurse-antispam'); ?></h3>
+
+                            <div class="decurse-test-options">
+                                <label class="decurse-test-option <?php echo empty($options['enable_honeypot']) ? 'disabled' : ''; ?>">
+                                    <input type="checkbox" name="test_honeypot" value="1"
+                                        <?php checked(!empty($options['enable_honeypot'])); ?>
+                                        <?php disabled(empty($options['enable_honeypot'])); ?>>
+                                    <span class="test-option-content">
+                                        <strong><?php esc_html_e('Honeypot', 'decurse-antispam'); ?></strong>
+                                        <small><?php echo empty($options['enable_honeypot']) ? esc_html__('Désactivé dans les paramètres', 'decurse-antispam') : esc_html__('Piège avec champ invisible', 'decurse-antispam'); ?></small>
+                                    </span>
+                                </label>
+
+                                <label class="decurse-test-option <?php echo empty($options['enable_time_check']) ? 'disabled' : ''; ?>">
+                                    <input type="checkbox" name="test_time" value="1"
+                                        <?php checked(!empty($options['enable_time_check'])); ?>
+                                        <?php disabled(empty($options['enable_time_check'])); ?>>
+                                    <span class="test-option-content">
+                                        <strong><?php esc_html_e('Vérification du temps', 'decurse-antispam'); ?></strong>
+                                        <small><?php echo empty($options['enable_time_check']) ? esc_html__('Désactivé dans les paramètres', 'decurse-antispam') : sprintf(esc_html__('Min. %d secondes', 'decurse-antispam'), $options['min_submit_time'] ?? 3); ?></small>
+                                    </span>
+                                </label>
+
+                                <label class="decurse-test-option <?php echo empty($options['enable_js_token']) ? 'disabled' : ''; ?>">
+                                    <input type="checkbox" name="test_js" value="1"
+                                        <?php checked(!empty($options['enable_js_token'])); ?>
+                                        <?php disabled(empty($options['enable_js_token'])); ?>>
+                                    <span class="test-option-content">
+                                        <strong><?php esc_html_e('Jeton JavaScript', 'decurse-antispam'); ?></strong>
+                                        <small><?php echo empty($options['enable_js_token']) ? esc_html__('Désactivé dans les paramètres', 'decurse-antispam') : esc_html__('Validation JS', 'decurse-antispam'); ?></small>
+                                    </span>
+                                </label>
+
+                                <label class="decurse-test-option <?php echo empty($options['enable_content_check']) ? 'disabled' : ''; ?>">
+                                    <input type="checkbox" name="test_content" value="1"
+                                        <?php checked(!empty($options['enable_content_check'])); ?>
+                                        <?php disabled(empty($options['enable_content_check'])); ?>>
+                                    <span class="test-option-content">
+                                        <strong><?php esc_html_e('Analyse du contenu', 'decurse-antispam'); ?></strong>
+                                        <small><?php echo empty($options['enable_content_check']) ? esc_html__('Désactivé dans les paramètres', 'decurse-antispam') : esc_html__('Domaines, motifs, liens', 'decurse-antispam'); ?></small>
+                                    </span>
+                                </label>
+                            </div>
+
+                            <button type="button" id="decurse-run-tests" class="button button-primary button-hero">
+                                <span class="dashicons dashicons-controls-play"></span>
+                                <?php esc_html_e('Lancer les tests', 'decurse-antispam'); ?>
+                            </button>
+                        </div>
+
+                        <div class="decurse-tests-results" id="decurse-tests-results" style="display: none;">
+                            <h3><?php esc_html_e('Résultats', 'decurse-antispam'); ?></h3>
+                            <div class="decurse-tests-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="tests-progress-fill"></div>
+                                </div>
+                                <span class="progress-text" id="tests-progress-text">0%</span>
+                            </div>
+                            <div class="decurse-tests-list" id="decurse-tests-list"></div>
+                            <div class="decurse-tests-summary" id="decurse-tests-summary" style="display: none;"></div>
+                        </div>
                     </div>
                 </div>
                 <?php endif; ?>

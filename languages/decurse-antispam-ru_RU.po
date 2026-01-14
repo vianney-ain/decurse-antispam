@@ -296,3 +296,160 @@ msgstr "Защита комментариев WordPress от спама. Вне�
 
 msgid "More information about Decurse Antispam"
 msgstr "Подробнее о Decurse Antispam"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "Тесты"
+
+msgid "Tester la détection anti-spam"
+msgstr "Тестировать обнаружение спама"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "Запустите тесты, чтобы проверить, правильно ли работает обнаружение спама с вашими текущими настройками."
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "Выберите тесты для запуска"
+
+msgid "Désactivé dans les paramètres"
+msgstr "Отключено в настройках"
+
+msgid "Piège avec champ invisible"
+msgstr "Ловушка с невидимым полем"
+
+msgid "Vérification du temps"
+msgstr "Проверка времени"
+
+msgid "Min. %d secondes"
+msgstr "Мин. %d секунд"
+
+msgid "Jeton JavaScript"
+msgstr "JavaScript токен"
+
+msgid "Validation JS"
+msgstr "JS валидация"
+
+msgid "Analyse du contenu"
+msgstr "Анализ контента"
+
+msgid "Domaines, motifs, liens"
+msgstr "Домены, шаблоны, ссылки"
+
+msgid "Lancer les tests"
+msgstr "Запустить тесты"
+
+msgid "Résultats"
+msgstr "Результаты"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "Ловушка - Спам (поле заполнено)"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "Бот заполняет скрытое поле-ловушку"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "Ловушка - Допустимо (поле пустое)"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "Человек оставляет поле-ловушку пустым"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "Время - Спам (слишком быстро)"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "Отправка за 1с (мин: %dс)"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "Время - Допустимо (нормальная скорость)"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "Отправка за 10с (мин: %dс)"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "JS токен - Спам (недействительный токен)"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "Бот отправляет недействительный или пустой токен"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "JS токен - Допустимо (правильный токен)"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "Браузер генерирует правильный MD5 токен"
+
+msgid "Contenu - Domaine spam"
+msgstr "Контент - Спам-домен"
+
+msgid "Le commentaire contient binance.com"
+msgstr "Комментарий содержит binance.com"
+
+msgid "Contenu - Phrase de bot"
+msgstr "Контент - Фраза бота"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "Обнаружен типичный комментарий бота"
+
+msgid "Contenu - Motif spam"
+msgstr "Контент - Спам-шаблон"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "Содержит шаблон \"easy $500\""
+
+msgid "Contenu - Email suspect"
+msgstr "Контент - Подозрительный email"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "Email: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "Контент - Слишком много ссылок"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "Комментарий содержит 5 ссылок (макс: %d)"
+
+msgid "Contenu - Commentaire valide"
+msgstr "Контент - Допустимый комментарий"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "Легитимный комментарий без признаков спама"
+
+msgid "Test inconnu"
+msgstr "Неизвестный тест"
+
+msgid "Type de test non reconnu"
+msgstr "Тип теста не распознан"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "Деактивировать Decurse Antispam"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "Если вы планируете удалить плагин, хотите сохранить или удалить данные?"
+
+msgid "Conserver les données"
+msgstr "Сохранить данные"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "Настройки, статистика и журналы будут сохранены. Вы сможете переустановить плагин без потери данных."
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "Удалить данные при деинсталляции"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "При удалении плагина навсегда удалить все настройки, статистику и журналы из базы данных."
+
+msgid "Annuler"
+msgstr "Отмена"
+
+msgid "Désactiver"
+msgstr "Деактивировать"
+
+msgid "Traitement..."
+msgstr "Обработка..."
+
+msgid "Avancé"
+msgstr "Расширенные"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "Удалить все данные плагина (статистику, журналы, настройки) при удалении"
+
+msgid "Enregistrer"
+msgstr "Сохранить"

@@ -296,3 +296,160 @@ msgstr "WordPress评论垃圾防护。无需外部API。"
 
 msgid "More information about Decurse Antispam"
 msgstr "关于Decurse反垃圾的更多信息"
+
+# Tests tab - v1.0.1
+msgid "Tests"
+msgstr "测试"
+
+msgid "Tester la détection anti-spam"
+msgstr "测试垃圾检测"
+
+msgid "Lancez des tests pour vérifier que la détection anti-spam fonctionne correctement avec vos paramètres actuels."
+msgstr "运行测试以验证垃圾检测是否在您当前的设置下正常工作。"
+
+msgid "Sélectionnez les tests à lancer"
+msgstr "选择要运行的测试"
+
+msgid "Désactivé dans les paramètres"
+msgstr "在设置中已禁用"
+
+msgid "Piège avec champ invisible"
+msgstr "隐形字段陷阱"
+
+msgid "Vérification du temps"
+msgstr "时间检查"
+
+msgid "Min. %d secondes"
+msgstr "最少%d秒"
+
+msgid "Jeton JavaScript"
+msgstr "JavaScript令牌"
+
+msgid "Validation JS"
+msgstr "JS验证"
+
+msgid "Analyse du contenu"
+msgstr "内容分析"
+
+msgid "Domaines, motifs, liens"
+msgstr "域名、模式、链接"
+
+msgid "Lancer les tests"
+msgstr "运行测试"
+
+msgid "Résultats"
+msgstr "结果"
+
+msgid "Honeypot - Spam (champ rempli)"
+msgstr "蜜罐 - 垃圾（字段已填写）"
+
+msgid "Le bot remplit le champ honeypot caché"
+msgstr "机器人填写了隐藏的蜜罐字段"
+
+msgid "Honeypot - Valide (champ vide)"
+msgstr "蜜罐 - 有效（字段为空）"
+
+msgid "L'humain laisse le champ honeypot vide"
+msgstr "人类将蜜罐字段留空"
+
+msgid "Temps - Spam (trop rapide)"
+msgstr "时间 - 垃圾（太快）"
+
+msgid "Soumission en 1s (min: %ds)"
+msgstr "1秒内提交（最少: %d秒）"
+
+msgid "Temps - Valide (vitesse normale)"
+msgstr "时间 - 有效（正常速度）"
+
+msgid "Soumission en 10s (min: %ds)"
+msgstr "10秒内提交（最少: %d秒）"
+
+msgid "Jeton JS - Spam (jeton invalide)"
+msgstr "JS令牌 - 垃圾（无效令牌）"
+
+msgid "Le bot envoie un jeton invalide ou vide"
+msgstr "机器人发送无效或空令牌"
+
+msgid "Jeton JS - Valide (jeton correct)"
+msgstr "JS令牌 - 有效（正确令牌）"
+
+msgid "Le navigateur génère le jeton MD5 correct"
+msgstr "浏览器生成正确的MD5令牌"
+
+msgid "Contenu - Domaine spam"
+msgstr "内容 - 垃圾域名"
+
+msgid "Le commentaire contient binance.com"
+msgstr "评论包含binance.com"
+
+msgid "Contenu - Phrase de bot"
+msgstr "内容 - 机器人短语"
+
+msgid "Commentaire générique de bot détecté"
+msgstr "检测到通用机器人评论"
+
+msgid "Contenu - Motif spam"
+msgstr "内容 - 垃圾模式"
+
+msgid "Contient le motif \"easy $500\""
+msgstr "包含模式 \"easy $500\""
+
+msgid "Contenu - Email suspect"
+msgstr "内容 - 可疑邮箱"
+
+msgid "Email : 12345678@outlook.com"
+msgstr "邮箱: 12345678@outlook.com"
+
+msgid "Contenu - Trop de liens"
+msgstr "内容 - 链接过多"
+
+msgid "Le commentaire a 5 liens (max: %d)"
+msgstr "评论有5个链接（最多: %d）"
+
+msgid "Contenu - Commentaire valide"
+msgstr "内容 - 有效评论"
+
+msgid "Commentaire légitime sans indicateurs de spam"
+msgstr "没有垃圾指标的合法评论"
+
+msgid "Test inconnu"
+msgstr "未知测试"
+
+msgid "Type de test non reconnu"
+msgstr "测试类型未识别"
+
+msgid "Désactiver Decurse Antispam"
+msgstr "停用Decurse反垃圾"
+
+msgid "Si vous prévoyez de supprimer le plugin, voulez-vous conserver ou supprimer les données ?"
+msgstr "如果您计划删除插件，您想保留还是删除数据？"
+
+msgid "Conserver les données"
+msgstr "保留数据"
+
+msgid "Les paramètres, statistiques et logs seront conservés. Vous pourrez réinstaller le plugin sans perdre de données."
+msgstr "设置、统计和日志将被保留。您可以重新安装插件而不会丢失数据。"
+
+msgid "Supprimer les données à la désinstallation"
+msgstr "卸载时删除数据"
+
+msgid "Lors de la suppression du plugin, supprimer définitivement tous les paramètres, statistiques et logs de la base de données."
+msgstr "删除插件时，从数据库中永久删除所有设置、统计和日志。"
+
+msgid "Annuler"
+msgstr "取消"
+
+msgid "Désactiver"
+msgstr "停用"
+
+msgid "Traitement..."
+msgstr "处理中..."
+
+msgid "Avancé"
+msgstr "高级"
+
+msgid "Supprimer toutes les données du plugin (statistiques, logs, paramètres) lors de la suppression"
+msgstr "删除时删除所有插件数据（统计、日志、设置）"
+
+msgid "Enregistrer"
+msgstr "保存"
