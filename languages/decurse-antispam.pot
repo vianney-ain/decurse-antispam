@@ -1,0 +1,306 @@
+# Copyright (C) 2024 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Jeremie-Chauvel/decurse-antispam/issues\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: decurse-antispam.php:88
+msgid "Settings"
+msgstr ""
+
+#: decurse-antispam.php:98
+msgid "View details"
+msgstr ""
+
+#: includes/class-decurse-core.php:156
+msgid "Do not fill in"
+msgstr ""
+
+#: includes/class-decurse-core.php:393
+msgid "Your comment has been identified as spam."
+msgstr ""
+
+#: includes/class-decurse-core.php:397
+msgid "Comment blocked"
+msgstr ""
+
+#: includes/class-decurse-admin.php:42
+msgid "Unauthorized action"
+msgstr ""
+
+#: includes/class-decurse-admin.php:47
+msgid "Permission denied"
+msgstr ""
+
+#: includes/class-decurse-admin.php:70
+#: includes/class-decurse-admin.php:554
+msgid "Decurse Antispam"
+msgstr ""
+
+#: includes/class-decurse-admin.php:71
+msgid "Decurse"
+msgstr ""
+
+#: includes/class-decurse-admin.php:164
+msgid "Learn more"
+msgstr ""
+
+#: includes/class-decurse-admin.php:172
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-decurse-admin.php:176
+#: includes/class-decurse-admin.php:307
+msgid "Settings"
+msgstr ""
+
+#: includes/class-decurse-admin.php:184
+msgid "All data has been cleared successfully."
+msgstr ""
+
+#: includes/class-decurse-admin.php:192
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-decurse-admin.php:197
+msgid "Total blocked"
+msgstr ""
+
+#: includes/class-decurse-admin.php:201
+#: includes/class-decurse-admin.php:320
+#: includes/class-decurse-admin.php:554
+msgid "Honeypot"
+msgstr ""
+
+#: includes/class-decurse-admin.php:205
+msgid "Timer"
+msgstr ""
+
+#: includes/class-decurse-admin.php:209
+msgid "JS Token"
+msgstr ""
+
+#: includes/class-decurse-admin.php:213
+#: includes/class-decurse-admin.php:253
+msgid "Content"
+msgstr ""
+
+#: includes/class-decurse-admin.php:219
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-decurse-admin.php:237
+msgid "Blocked spam history"
+msgstr ""
+
+#: includes/class-decurse-admin.php:239
+msgid "View all WordPress spam"
+msgstr ""
+
+#: includes/class-decurse-admin.php:250
+msgid "Date"
+msgstr ""
+
+#: includes/class-decurse-admin.php:251
+msgid "Reason"
+msgstr ""
+
+#: includes/class-decurse-admin.php:252
+msgid "IP"
+msgstr ""
+
+#: includes/class-decurse-admin.php:278
+msgid "View"
+msgstr ""
+
+#: includes/class-decurse-admin.php:288
+msgid "No spam blocked yet."
+msgstr ""
+
+#: includes/class-decurse-admin.php:293
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr ""
+
+#: includes/class-decurse-admin.php:296
+msgid "Clear all"
+msgstr ""
+
+#: includes/class-decurse-admin.php:313
+msgid "Protection techniques"
+msgstr ""
+
+#: includes/class-decurse-admin.php:321
+msgid "Invisible trap field for bots"
+msgstr ""
+
+#: includes/class-decurse-admin.php:330
+msgid "Time check"
+msgstr ""
+
+#: includes/class-decurse-admin.php:331
+msgid "Blocks submissions that are too fast"
+msgstr ""
+
+#: includes/class-decurse-admin.php:340
+msgid "JavaScript Token"
+msgstr ""
+
+#: includes/class-decurse-admin.php:341
+msgid "Verifies that JavaScript is executed"
+msgstr ""
+
+#: includes/class-decurse-admin.php:350
+msgid "Content analysis"
+msgstr ""
+
+#: includes/class-decurse-admin.php:351
+msgid "Detects suspicious links and spam keywords"
+msgstr ""
+
+#: includes/class-decurse-admin.php:357
+msgid "Parameters"
+msgstr ""
+
+#: includes/class-decurse-admin.php:361
+msgid "Minimum time before submission (seconds)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:371
+msgid "Maximum number of links allowed"
+msgstr ""
+
+#: includes/class-decurse-admin.php:381
+msgid "Action on detected spam"
+msgstr ""
+
+#: includes/class-decurse-admin.php:388
+msgid "Mark as spam"
+msgstr ""
+
+#: includes/class-decurse-admin.php:389
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:397
+msgid "Block completely"
+msgstr ""
+
+#: includes/class-decurse-admin.php:398
+msgid "Rejects submission with error message"
+msgstr ""
+
+#: includes/class-decurse-admin.php:405
+msgid "Error message (if blocking)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:415
+msgid "Blacklists"
+msgstr ""
+
+#: includes/class-decurse-admin.php:419
+msgid "Blocked words (one per line)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:429
+msgid "Blocked domains (one per line)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:439
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr ""
+
+#: includes/class-decurse-admin.php:444
+msgid "Spam patterns (regex, one per line)"
+msgstr ""
+
+#: includes/class-decurse-admin.php:454
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr ""
+
+#: includes/class-decurse-admin.php:458
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-decurse-admin.php:467
+msgid "Anti-spam protection without external API"
+msgstr ""
+
+#: includes/class-decurse-admin.php:476
+msgid "Spam details"
+msgstr ""
+
+#: includes/class-decurse-admin.php:482
+msgid "Name"
+msgstr ""
+
+#: includes/class-decurse-admin.php:486
+msgid "Email"
+msgstr ""
+
+#: includes/class-decurse-admin.php:490
+msgid "Website"
+msgstr ""
+
+#: includes/class-decurse-admin.php:495
+msgid "Comment"
+msgstr ""
+
+#: includes/class-decurse-admin.php:555
+msgid "Too fast"
+msgstr ""
+
+#: includes/class-decurse-admin.php:556
+msgid "No JS"
+msgstr ""
+
+#: includes/class-decurse-admin.php:557
+msgid "Spam domain"
+msgstr ""
+
+#: includes/class-decurse-admin.php:558
+msgid "Spam URL"
+msgstr ""
+
+#: includes/class-decurse-admin.php:559
+msgid "Referral URL"
+msgstr ""
+
+#: includes/class-decurse-admin.php:560
+msgid "Referral link"
+msgstr ""
+
+#: includes/class-decurse-admin.php:561
+msgid "Bot phrase"
+msgstr ""
+
+#: includes/class-decurse-admin.php:562
+msgid "Spam pattern"
+msgstr ""
+
+#: includes/class-decurse-admin.php:563
+msgid "Suspicious email"
+msgstr ""
+
+#: includes/class-decurse-admin.php:564
+msgid "Too many links"
+msgstr ""
+
+#: includes/class-decurse-admin.php:565
+msgid "Blocked word"
+msgstr ""
+
+#: includes/class-decurse-admin.php:566
+msgid "Suspicious pattern"
+msgstr ""
+
+#: includes/class-decurse-admin.php:567
+msgid "Foreign spam"
+msgstr ""

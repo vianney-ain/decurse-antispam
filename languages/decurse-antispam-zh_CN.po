@@ -1,0 +1,298 @@
+# Chinese (Simplified) translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vianney-ain/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "View details"
+msgstr "查看详情"
+
+msgid "Do not fill in"
+msgstr "请勿填写"
+
+msgid "Your comment has been identified as spam."
+msgstr "您的评论已被识别为垃圾信息。"
+
+msgid "Comment blocked"
+msgstr "评论已被阻止"
+
+msgid "Unauthorized action"
+msgstr "未授权的操作"
+
+msgid "Permission denied"
+msgstr "权限被拒绝"
+
+msgid "Decurse Antispam"
+msgstr "Decurse 反垃圾"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "了解更多"
+
+msgid "Dashboard"
+msgstr "仪表盘"
+
+msgid "All data has been cleared successfully."
+msgstr "所有数据已成功清除。"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid "Total blocked"
+msgstr "总拦截数"
+
+msgid "Honeypot"
+msgstr "蜜罐"
+
+msgid "Timer"
+msgstr "计时器"
+
+msgid "JS Token"
+msgstr "JS令牌"
+
+msgid "Content"
+msgstr "内容"
+
+msgid "Last 7 days"
+msgstr "最近7天"
+
+msgid "Blocked spam history"
+msgstr "垃圾信息拦截历史"
+
+msgid "View all WordPress spam"
+msgstr "查看所有WordPress垃圾信息"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Reason"
+msgstr "原因"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "查看"
+
+msgid "No spam blocked yet."
+msgstr "尚未拦截垃圾信息。"
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "您确定要清除所有统计数据和日志吗？"
+
+msgid "Clear all"
+msgstr "全部清除"
+
+msgid "Protection techniques"
+msgstr "保护技术"
+
+msgid "Invisible trap field for bots"
+msgstr "针对机器人的隐形陷阱字段"
+
+msgid "Time check"
+msgstr "时间检查"
+
+msgid "Blocks submissions that are too fast"
+msgstr "阻止过快的提交"
+
+msgid "JavaScript Token"
+msgstr "JavaScript令牌"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "验证JavaScript是否执行"
+
+msgid "Content analysis"
+msgstr "内容分析"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "检测可疑链接和垃圾关键词"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "提交前最短时间（秒）"
+
+msgid "Maximum number of links allowed"
+msgstr "允许的最大链接数"
+
+msgid "Action on detected spam"
+msgstr "检测到垃圾信息时的操作"
+
+msgid "Mark as spam"
+msgstr "标记为垃圾"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "发送到WordPress垃圾队列（可恢复）"
+
+msgid "Block completely"
+msgstr "完全阻止"
+
+msgid "Rejects submission with error message"
+msgstr "显示错误消息拒绝提交"
+
+msgid "Error message (if blocking)"
+msgstr "错误消息（阻止时）"
+
+msgid "Blacklists"
+msgstr "黑名单"
+
+msgid "Blocked words (one per line)"
+msgstr "屏蔽词（每行一个）"
+
+msgid "Blocked domains (one per line)"
+msgstr "屏蔽域名（每行一个）"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "阻止内容或作者URL中包含这些域名的评论。"
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "垃圾模式（正则表达式，每行一个）"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "用于检测垃圾信息的正则表达式。例如：/easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "保存设置"
+
+msgid "Anti-spam protection without external API"
+msgstr "无需外部API的反垃圾保护"
+
+msgid "Spam details"
+msgstr "垃圾信息详情"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Email"
+msgstr "邮箱"
+
+msgid "Website"
+msgstr "网站"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Too fast"
+msgstr "太快"
+
+msgid "No JS"
+msgstr "无JS"
+
+msgid "Spam domain"
+msgstr "垃圾域名"
+
+msgid "Spam URL"
+msgstr "垃圾URL"
+
+msgid "Referral URL"
+msgstr "推荐URL"
+
+msgid "Referral link"
+msgstr "推荐链接"
+
+msgid "Bot phrase"
+msgstr "机器人短语"
+
+msgid "Spam pattern"
+msgstr "垃圾模式"
+
+msgid "Suspicious email"
+msgstr "可疑邮箱"
+
+msgid "Too many links"
+msgstr "链接过多"
+
+msgid "Blocked word"
+msgstr "屏蔽词"
+
+msgid "Suspicious pattern"
+msgstr "可疑模式"
+
+msgid "Foreign spam"
+msgstr "外语垃圾"
+
+msgid "protects your WordPress comments from spam using multiple layered detection techniques."
+msgstr "使用多层检测技术保护您的WordPress评论免受垃圾信息侵害。"
+
+msgid "Protection Techniques"
+msgstr "保护技术"
+
+msgid "Invisible trap field that bots fill out automatically"
+msgstr "机器人会自动填写的隐形陷阱字段"
+
+msgid "Time Check"
+msgstr "时间检查"
+
+msgid "Blocks submissions faster than humanly possible"
+msgstr "阻止比人类操作更快的提交"
+
+msgid "Detects spam domains, bot phrases, and suspicious patterns"
+msgstr "检测垃圾域名、机器人短语和可疑模式"
+
+msgid "Why Decurse Antispam?"
+msgstr "为什么选择Decurse反垃圾？"
+
+msgid "No external API - All processing happens on your server"
+msgstr "无需外部API - 所有处理都在您的服务器上进行"
+
+msgid "No CAPTCHA - Invisible to your visitors"
+msgstr "无需验证码 - 对访客不可见"
+
+msgid "Privacy-friendly - No data sent to third parties"
+msgstr "注重隐私 - 不向第三方发送数据"
+
+msgid "Lightweight - Minimal impact on page load"
+msgstr "轻量级 - 对页面加载影响最小"
+
+msgid "Upload the <code>decurse-antispam</code> folder to <code>/wp-content/plugins/</code>"
+msgstr "将<code>decurse-antispam</code>文件夹上传到<code>/wp-content/plugins/</code>"
+
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr "通过WordPress的"插件"菜单激活插件"
+
+msgid "Go to <strong>Decurse</strong> in the admin menu to configure settings"
+msgstr "在管理菜单中进入<strong>Decurse</strong>配置设置"
+
+msgid "Initial release"
+msgstr "首次发布"
+
+msgid "Honeypot protection"
+msgstr "蜜罐保护"
+
+msgid "Time-based submission check"
+msgstr "基于时间的提交检查"
+
+msgid "JavaScript token validation"
+msgstr "JavaScript令牌验证"
+
+msgid "Content analysis with multiple detection methods"
+msgstr "使用多种检测方法的内容分析"
+
+msgid "Dashboard with statistics and logs"
+msgstr "带有统计和日志的仪表盘"
+
+msgid "Configurable blacklists"
+msgstr "可配置的黑名单"
+
+msgid "Comment spam protection for WordPress. No external API required."
+msgstr "WordPress评论垃圾防护。无需外部API。"
+
+msgid "More information about Decurse Antispam"
+msgstr "关于Decurse反垃圾的更多信息"

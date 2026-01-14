@@ -1,0 +1,81 @@
+# IDE and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+bower_components/
+
+# Build artifacts
+*.map
+*.min.js.map
+*.min.css.map
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup*/
+wp-content/debug.log
+
+# Development
+.env
+.env.local
+.env.*.local
+phpunit.xml
+.phpunit.result.cache
+coverage/
+tests/
+
+# AI assistants
+CLAUDE.md
+.claude/
+
+# Internal documentation
+RELEASE.md
+
+# Distribution - files to exclude from WordPress.org ZIP
+# (README.md is for GitHub, readme.txt is for WordPress.org)
+build.sh
+build.ps1
+build/
+dist/
+
+# Package managers
+package-lock.json
+yarn.lock
+composer.lock
+
+# Archives
+*.zip
+*.tar.gz
+*.rar

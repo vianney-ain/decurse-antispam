@@ -1,0 +1,298 @@
+# Italian translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vianney-ain/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Italian <it@li.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "View details"
+msgstr "Visualizza dettagli"
+
+msgid "Do not fill in"
+msgstr "Non compilare"
+
+msgid "Your comment has been identified as spam."
+msgstr "Il tuo commento è stato identificato come spam."
+
+msgid "Comment blocked"
+msgstr "Commento bloccato"
+
+msgid "Unauthorized action"
+msgstr "Azione non autorizzata"
+
+msgid "Permission denied"
+msgstr "Permesso negato"
+
+msgid "Decurse Antispam"
+msgstr "Decurse Antispam"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "Scopri di più"
+
+msgid "Dashboard"
+msgstr "Pannello di controllo"
+
+msgid "All data has been cleared successfully."
+msgstr "Tutti i dati sono stati cancellati con successo."
+
+msgid "Statistics"
+msgstr "Statistiche"
+
+msgid "Total blocked"
+msgstr "Totale bloccati"
+
+msgid "Honeypot"
+msgstr "Honeypot"
+
+msgid "Timer"
+msgstr "Timer"
+
+msgid "JS Token"
+msgstr "Token JS"
+
+msgid "Content"
+msgstr "Contenuto"
+
+msgid "Last 7 days"
+msgstr "Ultimi 7 giorni"
+
+msgid "Blocked spam history"
+msgstr "Cronologia spam bloccato"
+
+msgid "View all WordPress spam"
+msgstr "Visualizza tutto lo spam WordPress"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Reason"
+msgstr "Motivo"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "Visualizza"
+
+msgid "No spam blocked yet."
+msgstr "Nessuno spam bloccato ancora."
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "Sei sicuro di voler cancellare tutte le statistiche e i log?"
+
+msgid "Clear all"
+msgstr "Cancella tutto"
+
+msgid "Protection techniques"
+msgstr "Tecniche di protezione"
+
+msgid "Invisible trap field for bots"
+msgstr "Campo trappola invisibile per i bot"
+
+msgid "Time check"
+msgstr "Controllo tempo"
+
+msgid "Blocks submissions that are too fast"
+msgstr "Blocca gli invii troppo veloci"
+
+msgid "JavaScript Token"
+msgstr "Token JavaScript"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "Verifica che JavaScript sia eseguito"
+
+msgid "Content analysis"
+msgstr "Analisi del contenuto"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "Rileva link sospetti e parole chiave spam"
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "Tempo minimo prima dell'invio (secondi)"
+
+msgid "Maximum number of links allowed"
+msgstr "Numero massimo di link consentiti"
+
+msgid "Action on detected spam"
+msgstr "Azione sullo spam rilevato"
+
+msgid "Mark as spam"
+msgstr "Segna come spam"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "Invia alla coda spam di WordPress (recuperabile)"
+
+msgid "Block completely"
+msgstr "Blocca completamente"
+
+msgid "Rejects submission with error message"
+msgstr "Rifiuta l'invio con messaggio di errore"
+
+msgid "Error message (if blocking)"
+msgstr "Messaggio di errore (se bloccato)"
+
+msgid "Blacklists"
+msgstr "Liste nere"
+
+msgid "Blocked words (one per line)"
+msgstr "Parole bloccate (una per riga)"
+
+msgid "Blocked domains (one per line)"
+msgstr "Domini bloccati (uno per riga)"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "Blocca i commenti contenenti questi domini nel contenuto o nell'URL dell'autore."
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "Pattern spam (regex, uno per riga)"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "Espressioni regolari per rilevare lo spam. Es.: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "Salva impostazioni"
+
+msgid "Anti-spam protection without external API"
+msgstr "Protezione anti-spam senza API esterna"
+
+msgid "Spam details"
+msgstr "Dettagli spam"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Website"
+msgstr "Sito web"
+
+msgid "Comment"
+msgstr "Commento"
+
+msgid "Too fast"
+msgstr "Troppo veloce"
+
+msgid "No JS"
+msgstr "Nessun JS"
+
+msgid "Spam domain"
+msgstr "Dominio spam"
+
+msgid "Spam URL"
+msgstr "URL spam"
+
+msgid "Referral URL"
+msgstr "URL di riferimento"
+
+msgid "Referral link"
+msgstr "Link di riferimento"
+
+msgid "Bot phrase"
+msgstr "Frase bot"
+
+msgid "Spam pattern"
+msgstr "Pattern spam"
+
+msgid "Suspicious email"
+msgstr "Email sospetta"
+
+msgid "Too many links"
+msgstr "Troppi link"
+
+msgid "Blocked word"
+msgstr "Parola bloccata"
+
+msgid "Suspicious pattern"
+msgstr "Pattern sospetto"
+
+msgid "Foreign spam"
+msgstr "Spam straniero"
+
+msgid "protects your WordPress comments from spam using multiple layered detection techniques."
+msgstr "protegge i tuoi commenti WordPress dallo spam utilizzando tecniche di rilevamento multilivello."
+
+msgid "Protection Techniques"
+msgstr "Tecniche di Protezione"
+
+msgid "Invisible trap field that bots fill out automatically"
+msgstr "Campo trappola invisibile che i bot compilano automaticamente"
+
+msgid "Time Check"
+msgstr "Controllo Tempo"
+
+msgid "Blocks submissions faster than humanly possible"
+msgstr "Blocca gli invii più veloci di quanto umanamente possibile"
+
+msgid "Detects spam domains, bot phrases, and suspicious patterns"
+msgstr "Rileva domini spam, frasi bot e pattern sospetti"
+
+msgid "Why Decurse Antispam?"
+msgstr "Perché Decurse Antispam?"
+
+msgid "No external API - All processing happens on your server"
+msgstr "Nessuna API esterna - Tutta l'elaborazione avviene sul tuo server"
+
+msgid "No CAPTCHA - Invisible to your visitors"
+msgstr "Nessun CAPTCHA - Invisibile ai tuoi visitatori"
+
+msgid "Privacy-friendly - No data sent to third parties"
+msgstr "Rispettoso della privacy - Nessun dato inviato a terze parti"
+
+msgid "Lightweight - Minimal impact on page load"
+msgstr "Leggero - Impatto minimo sul caricamento della pagina"
+
+msgid "Upload the <code>decurse-antispam</code> folder to <code>/wp-content/plugins/</code>"
+msgstr "Carica la cartella <code>decurse-antispam</code> in <code>/wp-content/plugins/</code>"
+
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr "Attiva il plugin tramite il menu \"Plugin\" in WordPress"
+
+msgid "Go to <strong>Decurse</strong> in the admin menu to configure settings"
+msgstr "Vai su <strong>Decurse</strong> nel menu admin per configurare le impostazioni"
+
+msgid "Initial release"
+msgstr "Prima release"
+
+msgid "Honeypot protection"
+msgstr "Protezione honeypot"
+
+msgid "Time-based submission check"
+msgstr "Controllo invio basato sul tempo"
+
+msgid "JavaScript token validation"
+msgstr "Validazione token JavaScript"
+
+msgid "Content analysis with multiple detection methods"
+msgstr "Analisi del contenuto con metodi di rilevamento multipli"
+
+msgid "Dashboard with statistics and logs"
+msgstr "Pannello di controllo con statistiche e log"
+
+msgid "Configurable blacklists"
+msgstr "Liste nere configurabili"
+
+msgid "Comment spam protection for WordPress. No external API required."
+msgstr "Protezione spam commenti per WordPress. Nessuna API esterna richiesta."
+
+msgid "More information about Decurse Antispam"
+msgstr "Maggiori informazioni su Decurse Antispam"

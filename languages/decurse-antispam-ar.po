@@ -1,0 +1,298 @@
+# Arabic translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vianney-ain/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "View details"
+msgstr "عرض التفاصيل"
+
+msgid "Do not fill in"
+msgstr "لا تملأ"
+
+msgid "Your comment has been identified as spam."
+msgstr "تم تحديد تعليقك كرسالة غير مرغوب فيها."
+
+msgid "Comment blocked"
+msgstr "تم حظر التعليق"
+
+msgid "Unauthorized action"
+msgstr "إجراء غير مصرح به"
+
+msgid "Permission denied"
+msgstr "تم رفض الإذن"
+
+msgid "Decurse Antispam"
+msgstr "Decurse لمكافحة الرسائل غير المرغوب فيها"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "معرفة المزيد"
+
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+msgid "All data has been cleared successfully."
+msgstr "تم مسح جميع البيانات بنجاح."
+
+msgid "Statistics"
+msgstr "الإحصائيات"
+
+msgid "Total blocked"
+msgstr "إجمالي المحظور"
+
+msgid "Honeypot"
+msgstr "مصيدة الروبوت"
+
+msgid "Timer"
+msgstr "المؤقت"
+
+msgid "JS Token"
+msgstr "رمز JS"
+
+msgid "Content"
+msgstr "المحتوى"
+
+msgid "Last 7 days"
+msgstr "آخر 7 أيام"
+
+msgid "Blocked spam history"
+msgstr "سجل الرسائل المحظورة"
+
+msgid "View all WordPress spam"
+msgstr "عرض جميع الرسائل غير المرغوب فيها"
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Reason"
+msgstr "السبب"
+
+msgid "IP"
+msgstr "عنوان IP"
+
+msgid "View"
+msgstr "عرض"
+
+msgid "No spam blocked yet."
+msgstr "لم يتم حظر أي رسائل غير مرغوب فيها بعد."
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "هل أنت متأكد من أنك تريد مسح جميع الإحصائيات والسجلات؟"
+
+msgid "Clear all"
+msgstr "مسح الكل"
+
+msgid "Protection techniques"
+msgstr "تقنيات الحماية"
+
+msgid "Invisible trap field for bots"
+msgstr "حقل مصيدة غير مرئي للروبوتات"
+
+msgid "Time check"
+msgstr "التحقق من الوقت"
+
+msgid "Blocks submissions that are too fast"
+msgstr "يحظر الإرسالات السريعة جداً"
+
+msgid "JavaScript Token"
+msgstr "رمز JavaScript"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "يتحقق من تنفيذ JavaScript"
+
+msgid "Content analysis"
+msgstr "تحليل المحتوى"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "يكتشف الروابط المشبوهة وكلمات الرسائل غير المرغوب فيها"
+
+msgid "Parameters"
+msgstr "المعلمات"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "الحد الأدنى للوقت قبل الإرسال (بالثواني)"
+
+msgid "Maximum number of links allowed"
+msgstr "الحد الأقصى لعدد الروابط المسموح بها"
+
+msgid "Action on detected spam"
+msgstr "الإجراء عند اكتشاف رسالة غير مرغوب فيها"
+
+msgid "Mark as spam"
+msgstr "تحديد كرسالة غير مرغوب فيها"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "يرسل إلى قائمة انتظار WordPress (قابل للاسترداد)"
+
+msgid "Block completely"
+msgstr "حظر كامل"
+
+msgid "Rejects submission with error message"
+msgstr "يرفض الإرسال مع رسالة خطأ"
+
+msgid "Error message (if blocking)"
+msgstr "رسالة الخطأ (عند الحظر)"
+
+msgid "Blacklists"
+msgstr "القوائم السوداء"
+
+msgid "Blocked words (one per line)"
+msgstr "الكلمات المحظورة (كلمة واحدة في كل سطر)"
+
+msgid "Blocked domains (one per line)"
+msgstr "النطاقات المحظورة (نطاق واحد في كل سطر)"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "يحظر التعليقات التي تحتوي على هذه النطاقات في المحتوى أو رابط الكاتب."
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "أنماط الرسائل غير المرغوب فيها (regex، واحد في كل سطر)"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "تعبيرات منتظمة للكشف عن الرسائل غير المرغوب فيها. مثال: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "حفظ الإعدادات"
+
+msgid "Anti-spam protection without external API"
+msgstr "حماية من الرسائل غير المرغوب فيها بدون API خارجي"
+
+msgid "Spam details"
+msgstr "تفاصيل الرسالة غير المرغوب فيها"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+msgid "Comment"
+msgstr "التعليق"
+
+msgid "Too fast"
+msgstr "سريع جداً"
+
+msgid "No JS"
+msgstr "بدون JS"
+
+msgid "Spam domain"
+msgstr "نطاق مشبوه"
+
+msgid "Spam URL"
+msgstr "رابط مشبوه"
+
+msgid "Referral URL"
+msgstr "رابط الإحالة"
+
+msgid "Referral link"
+msgstr "رابط إحالة"
+
+msgid "Bot phrase"
+msgstr "عبارة روبوت"
+
+msgid "Spam pattern"
+msgstr "نمط مشبوه"
+
+msgid "Suspicious email"
+msgstr "بريد إلكتروني مشبوه"
+
+msgid "Too many links"
+msgstr "روابط كثيرة جداً"
+
+msgid "Blocked word"
+msgstr "كلمة محظورة"
+
+msgid "Suspicious pattern"
+msgstr "نمط مشبوه"
+
+msgid "Foreign spam"
+msgstr "رسالة أجنبية غير مرغوب فيها"
+
+msgid "protects your WordPress comments from spam using multiple layered detection techniques."
+msgstr "يحمي تعليقات WordPress الخاصة بك من الرسائل غير المرغوب فيها باستخدام تقنيات كشف متعددة الطبقات."
+
+msgid "Protection Techniques"
+msgstr "تقنيات الحماية"
+
+msgid "Invisible trap field that bots fill out automatically"
+msgstr "حقل مصيدة غير مرئي تملأه الروبوتات تلقائياً"
+
+msgid "Time Check"
+msgstr "التحقق من الوقت"
+
+msgid "Blocks submissions faster than humanly possible"
+msgstr "يحظر الإرسالات الأسرع من الممكن بشرياً"
+
+msgid "Detects spam domains, bot phrases, and suspicious patterns"
+msgstr "يكتشف نطاقات الرسائل غير المرغوب فيها وعبارات الروبوتات والأنماط المشبوهة"
+
+msgid "Why Decurse Antispam?"
+msgstr "لماذا Decurse لمكافحة الرسائل غير المرغوب فيها؟"
+
+msgid "No external API - All processing happens on your server"
+msgstr "بدون API خارجي - كل المعالجة تتم على خادمك"
+
+msgid "No CAPTCHA - Invisible to your visitors"
+msgstr "بدون CAPTCHA - غير مرئي للزوار"
+
+msgid "Privacy-friendly - No data sent to third parties"
+msgstr "صديق للخصوصية - لا يتم إرسال بيانات لأطراف ثالثة"
+
+msgid "Lightweight - Minimal impact on page load"
+msgstr "خفيف - تأثير ضئيل على تحميل الصفحة"
+
+msgid "Upload the <code>decurse-antispam</code> folder to <code>/wp-content/plugins/</code>"
+msgstr "ارفع مجلد <code>decurse-antispam</code> إلى <code>/wp-content/plugins/</code>"
+
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr "قم بتفعيل الإضافة من خلال قائمة \"الإضافات\" في WordPress"
+
+msgid "Go to <strong>Decurse</strong> in the admin menu to configure settings"
+msgstr "انتقل إلى <strong>Decurse</strong> في قائمة الإدارة لتكوين الإعدادات"
+
+msgid "Initial release"
+msgstr "الإصدار الأول"
+
+msgid "Honeypot protection"
+msgstr "حماية مصيدة الروبوت"
+
+msgid "Time-based submission check"
+msgstr "التحقق من الإرسال بناءً على الوقت"
+
+msgid "JavaScript token validation"
+msgstr "التحقق من صحة رمز JavaScript"
+
+msgid "Content analysis with multiple detection methods"
+msgstr "تحليل المحتوى بطرق كشف متعددة"
+
+msgid "Dashboard with statistics and logs"
+msgstr "لوحة تحكم مع إحصائيات وسجلات"
+
+msgid "Configurable blacklists"
+msgstr "قوائم سوداء قابلة للتكوين"
+
+msgid "Comment spam protection for WordPress. No external API required."
+msgstr "حماية من تعليقات الرسائل غير المرغوب فيها لـ WordPress. لا حاجة لـ API خارجي."
+
+msgid "More information about Decurse Antispam"
+msgstr "مزيد من المعلومات حول Decurse لمكافحة الرسائل غير المرغوب فيها"

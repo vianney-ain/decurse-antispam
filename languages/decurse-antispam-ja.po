@@ -1,0 +1,298 @@
+# Japanese translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vianney-ain/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "View details"
+msgstr "詳細を見る"
+
+msgid "Do not fill in"
+msgstr "入力しないでください"
+
+msgid "Your comment has been identified as spam."
+msgstr "あなたのコメントはスパムとして識別されました。"
+
+msgid "Comment blocked"
+msgstr "コメントがブロックされました"
+
+msgid "Unauthorized action"
+msgstr "許可されていない操作"
+
+msgid "Permission denied"
+msgstr "アクセス拒否"
+
+msgid "Decurse Antispam"
+msgstr "Decurse Antispam"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "詳細を見る"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "All data has been cleared successfully."
+msgstr "すべてのデータが正常に削除されました。"
+
+msgid "Statistics"
+msgstr "統計"
+
+msgid "Total blocked"
+msgstr "総ブロック数"
+
+msgid "Honeypot"
+msgstr "ハニーポット"
+
+msgid "Timer"
+msgstr "タイマー"
+
+msgid "JS Token"
+msgstr "JSトークン"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Last 7 days"
+msgstr "過去7日間"
+
+msgid "Blocked spam history"
+msgstr "ブロックされたスパム履歴"
+
+msgid "View all WordPress spam"
+msgstr "すべてのWordPressスパムを表示"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Reason"
+msgstr "理由"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "表示"
+
+msgid "No spam blocked yet."
+msgstr "まだスパムはブロックされていません。"
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "すべての統計とログを削除してもよろしいですか？"
+
+msgid "Clear all"
+msgstr "すべて削除"
+
+msgid "Protection techniques"
+msgstr "保護技術"
+
+msgid "Invisible trap field for bots"
+msgstr "ボット用の不可視トラップフィールド"
+
+msgid "Time check"
+msgstr "時間チェック"
+
+msgid "Blocks submissions that are too fast"
+msgstr "高速すぎる送信をブロック"
+
+msgid "JavaScript Token"
+msgstr "JavaScriptトークン"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "JavaScriptが実行されていることを確認"
+
+msgid "Content analysis"
+msgstr "コンテンツ分析"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "疑わしいリンクとスパムキーワードを検出"
+
+msgid "Parameters"
+msgstr "パラメータ"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "送信前の最小時間（秒）"
+
+msgid "Maximum number of links allowed"
+msgstr "許可されるリンクの最大数"
+
+msgid "Action on detected spam"
+msgstr "検出されたスパムへのアクション"
+
+msgid "Mark as spam"
+msgstr "スパムとしてマーク"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "WordPressスパムキューに送信（復元可能）"
+
+msgid "Block completely"
+msgstr "完全にブロック"
+
+msgid "Rejects submission with error message"
+msgstr "エラーメッセージで送信を拒否"
+
+msgid "Error message (if blocking)"
+msgstr "エラーメッセージ（ブロック時）"
+
+msgid "Blacklists"
+msgstr "ブラックリスト"
+
+msgid "Blocked words (one per line)"
+msgstr "ブロックする単語（1行に1つ）"
+
+msgid "Blocked domains (one per line)"
+msgstr "ブロックするドメイン（1行に1つ）"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "コンテンツまたは投稿者URLにこれらのドメインを含むコメントをブロック。"
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "スパムパターン（正規表現、1行に1つ）"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "スパムを検出する正規表現。例: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "設定を保存"
+
+msgid "Anti-spam protection without external API"
+msgstr "外部APIなしのスパム対策"
+
+msgid "Spam details"
+msgstr "スパム詳細"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Email"
+msgstr "メール"
+
+msgid "Website"
+msgstr "ウェブサイト"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Too fast"
+msgstr "速すぎる"
+
+msgid "No JS"
+msgstr "JSなし"
+
+msgid "Spam domain"
+msgstr "スパムドメイン"
+
+msgid "Spam URL"
+msgstr "スパムURL"
+
+msgid "Referral URL"
+msgstr "リファラルURL"
+
+msgid "Referral link"
+msgstr "リファラルリンク"
+
+msgid "Bot phrase"
+msgstr "ボットフレーズ"
+
+msgid "Spam pattern"
+msgstr "スパムパターン"
+
+msgid "Suspicious email"
+msgstr "疑わしいメール"
+
+msgid "Too many links"
+msgstr "リンクが多すぎる"
+
+msgid "Blocked word"
+msgstr "ブロックされた単語"
+
+msgid "Suspicious pattern"
+msgstr "疑わしいパターン"
+
+msgid "Foreign spam"
+msgstr "外国語スパム"
+
+msgid "protects your WordPress comments from spam using multiple layered detection techniques."
+msgstr "多層検出技術を使用してWordPressコメントをスパムから保護します。"
+
+msgid "Protection Techniques"
+msgstr "保護技術"
+
+msgid "Invisible trap field that bots fill out automatically"
+msgstr "ボットが自動的に入力する不可視のトラップフィールド"
+
+msgid "Time Check"
+msgstr "時間チェック"
+
+msgid "Blocks submissions faster than humanly possible"
+msgstr "人間には不可能な速度の送信をブロック"
+
+msgid "Detects spam domains, bot phrases, and suspicious patterns"
+msgstr "スパムドメイン、ボットフレーズ、疑わしいパターンを検出"
+
+msgid "Why Decurse Antispam?"
+msgstr "なぜDecurse Antispam？"
+
+msgid "No external API - All processing happens on your server"
+msgstr "外部APIなし - すべての処理はサーバー上で行われます"
+
+msgid "No CAPTCHA - Invisible to your visitors"
+msgstr "CAPTCHAなし - 訪問者には見えません"
+
+msgid "Privacy-friendly - No data sent to third parties"
+msgstr "プライバシー重視 - 第三者にデータを送信しません"
+
+msgid "Lightweight - Minimal impact on page load"
+msgstr "軽量 - ページ読み込みへの影響を最小限に"
+
+msgid "Upload the <code>decurse-antispam</code> folder to <code>/wp-content/plugins/</code>"
+msgstr "<code>decurse-antispam</code>フォルダを<code>/wp-content/plugins/</code>にアップロード"
+
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr "WordPressの「プラグイン」メニューからプラグインを有効化"
+
+msgid "Go to <strong>Decurse</strong> in the admin menu to configure settings"
+msgstr "管理メニューの<strong>Decurse</strong>に移動して設定を行う"
+
+msgid "Initial release"
+msgstr "初回リリース"
+
+msgid "Honeypot protection"
+msgstr "ハニーポット保護"
+
+msgid "Time-based submission check"
+msgstr "時間ベースの送信チェック"
+
+msgid "JavaScript token validation"
+msgstr "JavaScriptトークン検証"
+
+msgid "Content analysis with multiple detection methods"
+msgstr "複数の検出方法によるコンテンツ分析"
+
+msgid "Dashboard with statistics and logs"
+msgstr "統計とログを含むダッシュボード"
+
+msgid "Configurable blacklists"
+msgstr "設定可能なブラックリスト"
+
+msgid "Comment spam protection for WordPress. No external API required."
+msgstr "WordPress用コメントスパム対策。外部APIは不要です。"
+
+msgid "More information about Decurse Antispam"
+msgstr "Decurse Antispamの詳細情報"

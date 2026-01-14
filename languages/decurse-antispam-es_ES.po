@@ -1,0 +1,229 @@
+# Spanish (Spain) translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Jeremie-Chauvel/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "View details"
+msgstr "Ver detalles"
+
+msgid "Do not fill in"
+msgstr "No rellenar"
+
+msgid "Your comment has been identified as spam."
+msgstr "Tu comentario ha sido identificado como spam."
+
+msgid "Comment blocked"
+msgstr "Comentario bloqueado"
+
+msgid "Unauthorized action"
+msgstr "Acción no autorizada"
+
+msgid "Permission denied"
+msgstr "Permiso denegado"
+
+msgid "Decurse Antispam"
+msgstr "Decurse Antispam"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "Más información"
+
+msgid "Dashboard"
+msgstr "Panel de control"
+
+msgid "All data has been cleared successfully."
+msgstr "Todos los datos se han eliminado correctamente."
+
+msgid "Statistics"
+msgstr "Estadísticas"
+
+msgid "Total blocked"
+msgstr "Total bloqueados"
+
+msgid "Honeypot"
+msgstr "Honeypot"
+
+msgid "Timer"
+msgstr "Temporizador"
+
+msgid "JS Token"
+msgstr "Token JS"
+
+msgid "Content"
+msgstr "Contenido"
+
+msgid "Last 7 days"
+msgstr "Últimos 7 días"
+
+msgid "Blocked spam history"
+msgstr "Historial de spam bloqueado"
+
+msgid "View all WordPress spam"
+msgstr "Ver todo el spam de WordPress"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Reason"
+msgstr "Razón"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "Ver"
+
+msgid "No spam blocked yet."
+msgstr "Ningún spam bloqueado todavía."
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "¿Estás seguro de que quieres borrar todas las estadísticas y registros?"
+
+msgid "Clear all"
+msgstr "Borrar todo"
+
+msgid "Protection techniques"
+msgstr "Técnicas de protección"
+
+msgid "Invisible trap field for bots"
+msgstr "Campo trampa invisible para bots"
+
+msgid "Time check"
+msgstr "Verificación temporal"
+
+msgid "Blocks submissions that are too fast"
+msgstr "Bloquea envíos demasiado rápidos"
+
+msgid "JavaScript Token"
+msgstr "Token JavaScript"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "Verifica que JavaScript se ejecute"
+
+msgid "Content analysis"
+msgstr "Análisis de contenido"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "Detecta enlaces sospechosos y palabras clave de spam"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "Tiempo mínimo antes del envío (segundos)"
+
+msgid "Maximum number of links allowed"
+msgstr "Número máximo de enlaces permitidos"
+
+msgid "Action on detected spam"
+msgstr "Acción al detectar spam"
+
+msgid "Mark as spam"
+msgstr "Marcar como spam"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "Envía a la cola de spam de WordPress (recuperable)"
+
+msgid "Block completely"
+msgstr "Bloquear completamente"
+
+msgid "Rejects submission with error message"
+msgstr "Rechaza el envío con mensaje de error"
+
+msgid "Error message (if blocking)"
+msgstr "Mensaje de error (si se bloquea)"
+
+msgid "Blacklists"
+msgstr "Listas negras"
+
+msgid "Blocked words (one per line)"
+msgstr "Palabras bloqueadas (una por línea)"
+
+msgid "Blocked domains (one per line)"
+msgstr "Dominios bloqueados (uno por línea)"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "Bloquea comentarios que contengan estos dominios en el contenido o URL del autor."
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "Patrones de spam (regex, uno por línea)"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "Expresiones regulares para detectar spam. Ej: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+msgid "Anti-spam protection without external API"
+msgstr "Protección antispam sin API externa"
+
+msgid "Spam details"
+msgstr "Detalles del spam"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Email"
+msgstr "Correo electrónico"
+
+msgid "Website"
+msgstr "Sitio web"
+
+msgid "Comment"
+msgstr "Comentario"
+
+msgid "Too fast"
+msgstr "Demasiado rápido"
+
+msgid "No JS"
+msgstr "Sin JS"
+
+msgid "Spam domain"
+msgstr "Dominio spam"
+
+msgid "Spam URL"
+msgstr "URL spam"
+
+msgid "Referral URL"
+msgstr "URL de referido"
+
+msgid "Referral link"
+msgstr "Enlace de referido"
+
+msgid "Bot phrase"
+msgstr "Frase de bot"
+
+msgid "Spam pattern"
+msgstr "Patrón de spam"
+
+msgid "Suspicious email"
+msgstr "Correo sospechoso"
+
+msgid "Too many links"
+msgstr "Demasiados enlaces"
+
+msgid "Blocked word"
+msgstr "Palabra bloqueada"
+
+msgid "Suspicious pattern"
+msgstr "Patrón sospechoso"
+
+msgid "Foreign spam"
+msgstr "Spam extranjero"

@@ -1,0 +1,738 @@
+/**
+ * Decurse Antispam - Admin Styles
+ */
+
+/* ========================================
+   Header Banner (Genesis-style)
+   ======================================== */
+.decurse-admin-wrap {
+    margin-left: -20px;
+    margin-right: 0;
+    margin-top: -10px;
+}
+
+.decurse-header-banner {
+    background: linear-gradient(135deg, #5ba94d 0%, #7EC56F 50%, #3d8b2f 100%);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/* Ligne du haut : logo + bouton */
+.decurse-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px 20px 30px;
+}
+
+.decurse-header-left {
+    flex-shrink: 0;
+}
+
+.decurse-header-logo {
+    height: 45px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    display: block;
+}
+
+.decurse-header-right {
+    flex-shrink: 0;
+}
+
+.decurse-about-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.decurse-about-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
+}
+
+.decurse-about-btn .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+
+/* Navigation sous le logo, alignée à gauche */
+.decurse-header-nav {
+    display: flex;
+    gap: 0;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+
+.decurse-nav-tab {
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+    border-radius: 6px 6px 0 0;
+}
+
+.decurse-nav-tab:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.decurse-nav-tab.active {
+    background: #f0f0f1;
+    color: #3d8b2f;
+}
+
+@media (max-width: 782px) {
+    .decurse-header-top {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .decurse-header-nav {
+        padding: 0 20px;
+        overflow-x: auto;
+    }
+
+    .decurse-nav-tab {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+
+    .decurse-header-logo {
+        height: 36px;
+    }
+}
+
+/* ========================================
+   Main Content
+   ======================================== */
+.decurse-admin {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Hide old h1 - now using header banner */
+.decurse-admin h1 {
+    display: none;
+}
+
+/* Dashboard Tab */
+.decurse-dashboard-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Settings Tab */
+.decurse-settings-tab {
+    margin-bottom: 20px;
+}
+
+.decurse-settings-tab .decurse-settings-panel {
+    max-width: 800px;
+}
+
+/* Panels */
+.decurse-stats-panel,
+.decurse-settings-panel,
+.decurse-logs-panel {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.decurse-stats-panel h2,
+.decurse-settings-panel h2,
+.decurse-logs-panel h2 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+
+/* Stats Cards */
+.decurse-stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.decurse-stat-card {
+    background: #f6f7f7;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+}
+
+.decurse-stat-card.total {
+    background: linear-gradient(135deg, #7EC56F 0%, #5ba94d 100%);
+    color: #fff;
+}
+
+.decurse-stat-card .stat-number {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.decurse-stat-card .stat-label {
+    display: block;
+    font-size: 12px;
+    color: #646970;
+    margin-top: 5px;
+}
+
+.decurse-stat-card.total .stat-label {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Chart */
+.decurse-chart {
+    margin-top: 20px;
+}
+
+.decurse-chart h3 {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: #646970;
+}
+
+.decurse-bars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 120px;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+
+.decurse-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.decurse-bar {
+    width: 30px;
+    background: linear-gradient(180deg, #7EC56F 0%, #5ba94d 100%);
+    border-radius: 3px 3px 0 0;
+    min-height: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.decurse-bar .bar-value {
+    position: absolute;
+    top: -20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #5ba94d;
+}
+
+.decurse-bar-container .bar-label {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #646970;
+}
+
+/* Sections */
+.decurse-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.decurse-section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+
+.decurse-section h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    color: #1d2327;
+}
+
+/* Toggle switches */
+.decurse-toggle {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.decurse-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-slider {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background: #c3c4c7;
+    border-radius: 12px;
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.toggle-slider::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.decurse-toggle input:checked + .toggle-slider {
+    background: #7EC56F;
+}
+
+.decurse-toggle input:checked + .toggle-slider::after {
+    transform: translateX(20px);
+}
+
+/* Danger toggle (for destructive options) */
+.decurse-toggle-danger input:checked + .toggle-slider {
+    background: #d63638;
+}
+
+.toggle-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.toggle-label strong {
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.toggle-label small {
+    font-size: 12px;
+    color: #646970;
+}
+
+/* Radio buttons */
+.decurse-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.decurse-radio {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.decurse-radio input[type="radio"] {
+    margin-top: 3px;
+}
+
+.radio-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.radio-label strong {
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.radio-label small {
+    font-size: 12px;
+    color: #646970;
+}
+
+/* Form fields */
+.decurse-field {
+    margin-bottom: 15px;
+}
+
+.decurse-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #1d2327;
+}
+
+.decurse-field input[type="text"],
+.decurse-field input[type="number"],
+.decurse-field textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.decurse-field input[type="number"] {
+    max-width: 100px;
+}
+
+.decurse-field textarea {
+    max-width: 100%;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.decurse-field-help {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #646970;
+    font-style: italic;
+}
+
+.decurse-field input:focus,
+.decurse-field textarea:focus {
+    border-color: #7EC56F;
+    outline: none;
+    box-shadow: 0 0 0 1px #7EC56F;
+}
+
+/* Footer */
+.decurse-footer {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.decurse-footer p {
+    margin: 0;
+    font-size: 13px;
+    color: #646970;
+}
+
+/* Submit button */
+.decurse-settings-panel .submit {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Logs Panel Header */
+.decurse-logs-panel .decurse-logs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.decurse-logs-panel .decurse-logs-header h2 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.decurse-view-all-link {
+    font-size: 12px;
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.decurse-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.decurse-logs-table-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.decurse-logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.decurse-logs-table thead {
+    position: sticky;
+    top: 0;
+    background: #f6f7f7;
+    z-index: 1;
+}
+
+.decurse-logs-table th {
+    padding: 10px 8px;
+    text-align: left;
+    font-weight: 600;
+    color: #1d2327;
+    border-bottom: 2px solid #ddd;
+}
+
+.decurse-logs-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+.decurse-logs-table tbody tr:hover {
+    background: #f9f9f9;
+}
+
+.decurse-logs-table .log-date {
+    white-space: nowrap;
+    color: #646970;
+    font-size: 11px;
+}
+
+.decurse-logs-table .log-ip code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.decurse-logs-table .log-content {
+    max-width: 250px;
+}
+
+.decurse-logs-table .content-preview {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.decurse-logs-table .content-preview span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #646970;
+    flex: 1;
+    min-width: 0;
+}
+
+/* Reason badges */
+.reason-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.reason-honeypot {
+    background: #FEEA6B;
+    color: #7a6d00;
+}
+
+.reason-time {
+    background: #7EC56F;
+    color: #fff;
+}
+
+.reason-js {
+    background: #FEEA6B;
+    color: #7a6d00;
+}
+
+.reason-content {
+    background: #F15A5E;
+    color: #fff;
+}
+
+.reason-other {
+    background: #FEEA6B;
+    color: #7a6d00;
+}
+
+.decurse-no-logs {
+    color: #646970;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+/* View button */
+.view-full-content {
+    background: none;
+    border: none;
+    color: #2271b1;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.view-full-content:hover {
+    color: #135e96;
+}
+
+/* Modal */
+.decurse-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    align-items: center;
+    justify-content: center;
+}
+
+.decurse-modal-content {
+    background: #fff;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.decurse-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.decurse-modal-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1d2327;
+}
+
+.decurse-modal-close {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #646970;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.decurse-modal-close:hover {
+    color: #F15A5E;
+}
+
+.decurse-modal-body {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.decurse-modal-body pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #1d2327;
+    background: #f6f7f7;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* Modal fields */
+.decurse-modal-fields {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 500px) {
+    .decurse-modal-fields {
+        grid-template-columns: 1fr;
+    }
+}
+
+.modal-field label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #646970;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.modal-field span {
+    display: block;
+    font-size: 14px;
+    color: #1d2327;
+    word-break: break-all;
+}
+
+.modal-field span a {
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.modal-field span a:hover {
+    text-decoration: underline;
+}
+
+.modal-field-content label {
+    margin-bottom: 10px;
+}
+
+/* Clear form */
+.decurse-clear-form {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.decurse-clear-btn {
+    color: #F15A5E !important;
+    border-color: #F15A5E !important;
+}
+
+.decurse-clear-btn:hover {
+    background: #F15A5E !important;
+    color: #fff !important;
+}

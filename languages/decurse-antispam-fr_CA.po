@@ -1,0 +1,229 @@
+# French (Canada) translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Jeremie-Chauvel/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: French (Canada) <fr_CA@li.org>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "View details"
+msgstr "Voir les détails"
+
+msgid "Do not fill in"
+msgstr "Ne pas remplir"
+
+msgid "Your comment has been identified as spam."
+msgstr "Votre commentaire a été identifié comme pourriel."
+
+msgid "Comment blocked"
+msgstr "Commentaire bloqué"
+
+msgid "Unauthorized action"
+msgstr "Action non autorisée"
+
+msgid "Permission denied"
+msgstr "Permission refusée"
+
+msgid "Decurse Antispam"
+msgstr "Decurse Antipourriel"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "En savoir plus"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "All data has been cleared successfully."
+msgstr "Toutes les données ont été effacées avec succès."
+
+msgid "Statistics"
+msgstr "Statistiques"
+
+msgid "Total blocked"
+msgstr "Total bloqués"
+
+msgid "Honeypot"
+msgstr "Pot de miel"
+
+msgid "Timer"
+msgstr "Minuteur"
+
+msgid "JS Token"
+msgstr "Jeton JS"
+
+msgid "Content"
+msgstr "Contenu"
+
+msgid "Last 7 days"
+msgstr "7 derniers jours"
+
+msgid "Blocked spam history"
+msgstr "Historique des pourriels bloqués"
+
+msgid "View all WordPress spam"
+msgstr "Voir tous les pourriels WordPress"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Reason"
+msgstr "Raison"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "Voir"
+
+msgid "No spam blocked yet."
+msgstr "Aucun pourriel bloqué pour le moment."
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "Êtes-vous certain de vouloir effacer toutes les statistiques et journaux ?"
+
+msgid "Clear all"
+msgstr "Tout effacer"
+
+msgid "Protection techniques"
+msgstr "Techniques de protection"
+
+msgid "Invisible trap field for bots"
+msgstr "Champ piège invisible pour les robots"
+
+msgid "Time check"
+msgstr "Vérification temporelle"
+
+msgid "Blocks submissions that are too fast"
+msgstr "Bloque les soumissions trop rapides"
+
+msgid "JavaScript Token"
+msgstr "Jeton JavaScript"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "Vérifie que JavaScript est exécuté"
+
+msgid "Content analysis"
+msgstr "Analyse du contenu"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "Détecte les liens suspects et mots-clés de pourriel"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "Temps minimum avant soumission (secondes)"
+
+msgid "Maximum number of links allowed"
+msgstr "Nombre maximum de liens autorisés"
+
+msgid "Action on detected spam"
+msgstr "Action sur pourriel détecté"
+
+msgid "Mark as spam"
+msgstr "Marquer comme pourriel"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "Envoie dans la file de pourriels WordPress (récupérable)"
+
+msgid "Block completely"
+msgstr "Bloquer complètement"
+
+msgid "Rejects submission with error message"
+msgstr "Refuse la soumission avec message d'erreur"
+
+msgid "Error message (if blocking)"
+msgstr "Message d'erreur (si blocage)"
+
+msgid "Blacklists"
+msgstr "Listes noires"
+
+msgid "Blocked words (one per line)"
+msgstr "Mots bloqués (un par ligne)"
+
+msgid "Blocked domains (one per line)"
+msgstr "Domaines bloqués (un par ligne)"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "Bloque les commentaires contenant ces domaines dans le contenu ou l'URL de l'auteur."
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "Patrons de pourriel (regex, un par ligne)"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "Expressions régulières pour détecter le pourriel. Ex: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "Sauvegarder les paramètres"
+
+msgid "Anti-spam protection without external API"
+msgstr "Protection antipourriel sans API externe"
+
+msgid "Spam details"
+msgstr "Détails du pourriel"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Email"
+msgstr "Courriel"
+
+msgid "Website"
+msgstr "Site web"
+
+msgid "Comment"
+msgstr "Commentaire"
+
+msgid "Too fast"
+msgstr "Trop rapide"
+
+msgid "No JS"
+msgstr "Pas de JS"
+
+msgid "Spam domain"
+msgstr "Domaine pourriel"
+
+msgid "Spam URL"
+msgstr "URL pourriel"
+
+msgid "Referral URL"
+msgstr "URL de référence"
+
+msgid "Referral link"
+msgstr "Lien de référence"
+
+msgid "Bot phrase"
+msgstr "Phrase de robot"
+
+msgid "Spam pattern"
+msgstr "Patron de pourriel"
+
+msgid "Suspicious email"
+msgstr "Courriel suspect"
+
+msgid "Too many links"
+msgstr "Trop de liens"
+
+msgid "Blocked word"
+msgstr "Mot bloqué"
+
+msgid "Suspicious pattern"
+msgstr "Patron suspect"
+
+msgid "Foreign spam"
+msgstr "Pourriel étranger"

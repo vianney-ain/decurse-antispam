@@ -1,0 +1,298 @@
+# Korean translation for Decurse Antispam
+# Copyright (C) 2026 Vianney Aïn
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Decurse Antispam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vianney-ain/decurse-antispam/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: Vianney Aïn\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "View details"
+msgstr "상세 보기"
+
+msgid "Do not fill in"
+msgstr "입력하지 마세요"
+
+msgid "Your comment has been identified as spam."
+msgstr "귀하의 댓글이 스팸으로 식별되었습니다."
+
+msgid "Comment blocked"
+msgstr "댓글이 차단되었습니다"
+
+msgid "Unauthorized action"
+msgstr "승인되지 않은 작업"
+
+msgid "Permission denied"
+msgstr "권한이 거부되었습니다"
+
+msgid "Decurse Antispam"
+msgstr "Decurse 스팸방지"
+
+msgid "Decurse"
+msgstr "Decurse"
+
+msgid "Learn more"
+msgstr "더 알아보기"
+
+msgid "Dashboard"
+msgstr "대시보드"
+
+msgid "All data has been cleared successfully."
+msgstr "모든 데이터가 성공적으로 삭제되었습니다."
+
+msgid "Statistics"
+msgstr "통계"
+
+msgid "Total blocked"
+msgstr "총 차단"
+
+msgid "Honeypot"
+msgstr "허니팟"
+
+msgid "Timer"
+msgstr "타이머"
+
+msgid "JS Token"
+msgstr "JS 토큰"
+
+msgid "Content"
+msgstr "콘텐츠"
+
+msgid "Last 7 days"
+msgstr "최근 7일"
+
+msgid "Blocked spam history"
+msgstr "차단된 스팸 기록"
+
+msgid "View all WordPress spam"
+msgstr "모든 WordPress 스팸 보기"
+
+msgid "Date"
+msgstr "날짜"
+
+msgid "Reason"
+msgstr "이유"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "View"
+msgstr "보기"
+
+msgid "No spam blocked yet."
+msgstr "아직 차단된 스팸이 없습니다."
+
+msgid "Are you sure you want to clear all statistics and logs?"
+msgstr "모든 통계와 로그를 삭제하시겠습니까?"
+
+msgid "Clear all"
+msgstr "모두 삭제"
+
+msgid "Protection techniques"
+msgstr "보호 기술"
+
+msgid "Invisible trap field for bots"
+msgstr "봇을 위한 보이지 않는 함정 필드"
+
+msgid "Time check"
+msgstr "시간 확인"
+
+msgid "Blocks submissions that are too fast"
+msgstr "너무 빠른 제출 차단"
+
+msgid "JavaScript Token"
+msgstr "JavaScript 토큰"
+
+msgid "Verifies that JavaScript is executed"
+msgstr "JavaScript 실행 확인"
+
+msgid "Content analysis"
+msgstr "콘텐츠 분석"
+
+msgid "Detects suspicious links and spam keywords"
+msgstr "의심스러운 링크와 스팸 키워드 감지"
+
+msgid "Parameters"
+msgstr "매개변수"
+
+msgid "Minimum time before submission (seconds)"
+msgstr "제출 전 최소 시간 (초)"
+
+msgid "Maximum number of links allowed"
+msgstr "허용되는 최대 링크 수"
+
+msgid "Action on detected spam"
+msgstr "스팸 감지 시 작업"
+
+msgid "Mark as spam"
+msgstr "스팸으로 표시"
+
+msgid "Sends to WordPress spam queue (recoverable)"
+msgstr "WordPress 스팸 대기열로 전송 (복구 가능)"
+
+msgid "Block completely"
+msgstr "완전히 차단"
+
+msgid "Rejects submission with error message"
+msgstr "오류 메시지와 함께 제출 거부"
+
+msgid "Error message (if blocking)"
+msgstr "오류 메시지 (차단 시)"
+
+msgid "Blacklists"
+msgstr "블랙리스트"
+
+msgid "Blocked words (one per line)"
+msgstr "차단된 단어 (줄당 하나)"
+
+msgid "Blocked domains (one per line)"
+msgstr "차단된 도메인 (줄당 하나)"
+
+msgid "Blocks comments containing these domains in content or author URL."
+msgstr "콘텐츠 또는 작성자 URL에 이러한 도메인이 포함된 댓글을 차단합니다."
+
+msgid "Spam patterns (regex, one per line)"
+msgstr "스팸 패턴 (정규식, 줄당 하나)"
+
+msgid "Regular expressions to detect spam. E.g.: /easy \\$\\d+/i"
+msgstr "스팸을 감지하기 위한 정규 표현식. 예: /easy \\$\\d+/i"
+
+msgid "Save settings"
+msgstr "설정 저장"
+
+msgid "Anti-spam protection without external API"
+msgstr "외부 API 없이 스팸 방지 보호"
+
+msgid "Spam details"
+msgstr "스팸 상세"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid "Website"
+msgstr "웹사이트"
+
+msgid "Comment"
+msgstr "댓글"
+
+msgid "Too fast"
+msgstr "너무 빠름"
+
+msgid "No JS"
+msgstr "JS 없음"
+
+msgid "Spam domain"
+msgstr "스팸 도메인"
+
+msgid "Spam URL"
+msgstr "스팸 URL"
+
+msgid "Referral URL"
+msgstr "추천 URL"
+
+msgid "Referral link"
+msgstr "추천 링크"
+
+msgid "Bot phrase"
+msgstr "봇 문구"
+
+msgid "Spam pattern"
+msgstr "스팸 패턴"
+
+msgid "Suspicious email"
+msgstr "의심스러운 이메일"
+
+msgid "Too many links"
+msgstr "링크가 너무 많음"
+
+msgid "Blocked word"
+msgstr "차단된 단어"
+
+msgid "Suspicious pattern"
+msgstr "의심스러운 패턴"
+
+msgid "Foreign spam"
+msgstr "외국어 스팸"
+
+msgid "protects your WordPress comments from spam using multiple layered detection techniques."
+msgstr "다층 감지 기술을 사용하여 WordPress 댓글을 스팸으로부터 보호합니다."
+
+msgid "Protection Techniques"
+msgstr "보호 기술"
+
+msgid "Invisible trap field that bots fill out automatically"
+msgstr "봇이 자동으로 채우는 보이지 않는 함정 필드"
+
+msgid "Time Check"
+msgstr "시간 확인"
+
+msgid "Blocks submissions faster than humanly possible"
+msgstr "인간적으로 불가능한 속도의 제출 차단"
+
+msgid "Detects spam domains, bot phrases, and suspicious patterns"
+msgstr "스팸 도메인, 봇 문구 및 의심스러운 패턴 감지"
+
+msgid "Why Decurse Antispam?"
+msgstr "왜 Decurse 스팸방지인가?"
+
+msgid "No external API - All processing happens on your server"
+msgstr "외부 API 없음 - 모든 처리는 서버에서 이루어집니다"
+
+msgid "No CAPTCHA - Invisible to your visitors"
+msgstr "CAPTCHA 없음 - 방문자에게 보이지 않음"
+
+msgid "Privacy-friendly - No data sent to third parties"
+msgstr "개인 정보 보호 - 제3자에게 데이터 전송 없음"
+
+msgid "Lightweight - Minimal impact on page load"
+msgstr "경량 - 페이지 로드에 최소한의 영향"
+
+msgid "Upload the <code>decurse-antispam</code> folder to <code>/wp-content/plugins/</code>"
+msgstr "<code>decurse-antispam</code> 폴더를 <code>/wp-content/plugins/</code>에 업로드"
+
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr "WordPress의 \"플러그인\" 메뉴를 통해 플러그인 활성화"
+
+msgid "Go to <strong>Decurse</strong> in the admin menu to configure settings"
+msgstr "관리자 메뉴에서 <strong>Decurse</strong>로 이동하여 설정 구성"
+
+msgid "Initial release"
+msgstr "초기 릴리스"
+
+msgid "Honeypot protection"
+msgstr "허니팟 보호"
+
+msgid "Time-based submission check"
+msgstr "시간 기반 제출 확인"
+
+msgid "JavaScript token validation"
+msgstr "JavaScript 토큰 유효성 검사"
+
+msgid "Content analysis with multiple detection methods"
+msgstr "다중 감지 방법을 통한 콘텐츠 분석"
+
+msgid "Dashboard with statistics and logs"
+msgstr "통계 및 로그가 있는 대시보드"
+
+msgid "Configurable blacklists"
+msgstr "구성 가능한 블랙리스트"
+
+msgid "Comment spam protection for WordPress. No external API required."
+msgstr "WordPress용 댓글 스팸 보호. 외부 API 필요 없음."
+
+msgid "More information about Decurse Antispam"
+msgstr "Decurse 스팸방지에 대한 자세한 정보"
