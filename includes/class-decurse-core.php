@@ -68,6 +68,9 @@ class Decurse_Core {
         'ow.ly',
         'adf.ly',
         'shorte.st',
+        'shorturl.fm',
+        'addlinks.pro',
+        'pesnimp3.net',
     );
 
     /**
@@ -317,14 +320,27 @@ class Decurse_Core {
         }
 
         // === SUSPICIOUS EMAIL CHECK ===
-        // Pattern: 8 digits@outlook.com (very common for spambots)
-        if (preg_match('/^\d{6,10}@(outlook|hotmail|gmail)\.(com|fr)$/i', $author_email)) {
+        // Pattern 1: pure digits (6-10)@outlook/hotmail/gmail
+        // Pattern 2: word+digits@outlook/hotmail/gmail/yahoo (e.g. Zane2126@gmail.com)
+        if (preg_match('/^\d{6,10}@(outlook|hotmail|gmail)\.(com|fr)$/i', $author_email)
+            || preg_match('/^[a-z]+\d{1,10}@(outlook|hotmail|gmail|yahoo)\.(com|fr|net|ca)$/i', $author_email)) {
             return 'suspicious_email';
         }
 
         // === REFERRAL CODE CHECK IN CONTENT ===
         if (preg_match('/[?&]ref=[A-Z0-9]{6,}/i', $content)) {
             return 'referral_link';
+        }
+
+        // === ONLY-LINK CHECK ===
+        // A comment whose entire body reduces to a URL (typical bot payload:
+        // <a href="https://x.tld/abc">https://x.tld/abc</a>)
+        if (preg_match('/https?:\/\//i', $content)) {
+            $stripped = wp_strip_all_tags($content);
+            $stripped = preg_replace('/https?:\/\/\S+/i', '', $stripped);
+            if (strlen(trim($stripped)) < 5) {
+                return 'only_link';
+            }
         }
 
         // === LINK COUNT CHECK ===

@@ -219,7 +219,7 @@ class Decurse_Antispam {
             'max_links'            => 3,
             'spam_action'          => 'spam', // 'spam' or 'block'
             'blocked_words'        => $this->get_default_blocked_words(),
-            'blocked_domains'      => "binance.com\nbinance.info\nbybit.com\nkucoin.com\nokx.com\ngate.io\nbitget.com\nmexc.com\nhuobi.com\ncrypto.com\ncoinbase.com\nkraken.com\nfreecash.com\nswagbucks.com\nprizerebell.com\ninboxdollars.com\nsurveyjunkie.com\nmypoints.com\ncashcrate.com\nearnably.com\ngrabpoints.com\nprizerebel.com\ngifthulk.com\nysense.com\ntimebucks.com\nrewards1.com\nclickworker.com\ntoluna.com\nlifepoints.com\nbet365.com\n1xbet.com\nstake.com\n888casino.com\npokerstars.com\nadultfriendfinder.com\nashleymadison.com\nbit.ly\ntinyurl.com\ngoo.gl\nt.co\nis.gd\nbuff.ly\now.ly\nadf.ly\nshorte.st",
+            'blocked_domains'      => "binance.com\nbinance.info\nbybit.com\nkucoin.com\nokx.com\ngate.io\nbitget.com\nmexc.com\nhuobi.com\ncrypto.com\ncoinbase.com\nkraken.com\nfreecash.com\nswagbucks.com\nprizerebell.com\ninboxdollars.com\nsurveyjunkie.com\nmypoints.com\ncashcrate.com\nearnably.com\ngrabpoints.com\nprizerebel.com\ngifthulk.com\nysense.com\ntimebucks.com\nrewards1.com\nclickworker.com\ntoluna.com\nlifepoints.com\nbet365.com\n1xbet.com\nstake.com\n888casino.com\npokerstars.com\nadultfriendfinder.com\nashleymadison.com\nbit.ly\ntinyurl.com\ngoo.gl\nt.co\nis.gd\nbuff.ly\now.ly\nadf.ly\nshorte.st\nshorturl.fm\naddlinks.pro\npesnimp3.net",
             'spam_patterns'        => "/easy \\\$\\d+/i\n/free \\\$\\d+/i\n/earn \\\$\\d+/i\n/make \\\$\\d+/i\n/get \\\$\\d+/i\n/win \\\$\\d+/i\n/claim (your |a )?(free |bonus )?/i\n/signup bonus/i\n/referral (code|link|bonus)/i\n/use (my |this )?(code|link)/i\n/promo code/i\n/free (money|cash|coins|tokens)/i\n/passive income/i\n/make money (online|fast|quick)/i\n/get rich (quick|fast)/i\n/limited time offer/i\n/100% (free|guaranteed)/i\n/double your (money|investment)/i\n/figured it might help/i",
             'error_message'        => '',
         );
@@ -453,7 +453,10 @@ is.gd
 buff.ly
 ow.ly
 adf.ly
-shorte.st";
+shorte.st
+shorturl.fm
+addlinks.pro
+pesnimp3.net";
     }
 
     /**

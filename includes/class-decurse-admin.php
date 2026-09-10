@@ -898,6 +898,7 @@ class Decurse_Admin {
             'content_referral_link'=> __('Referral link', 'decurse-antispam'),
             'content_bot_phrase'  => __('Bot phrase', 'decurse-antispam'),
             'content_spam_pattern'=> __('Spam pattern', 'decurse-antispam'),
+            'content_only_link'   => __('Only a link', 'decurse-antispam'),
             'content_suspicious_email' => __('Suspicious email', 'decurse-antispam'),
             'content_links'       => __('Too many links', 'decurse-antispam'),
             'content_blocked_word'=> __('Blocked word', 'decurse-antispam'),
